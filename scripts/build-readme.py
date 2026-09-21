@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import re
+from html import escape
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -89,10 +90,6 @@ class Category:
         return f"categories/{self.filename}"
 
 
-def pluralize(count: int) -> str:
-    return "entry" if count == 1 else "entries"
-
-
 def parse_category(filename: str) -> Category:
     path = REPO_ROOT / "categories" / filename
     lines = path.read_text().splitlines()
@@ -155,37 +152,89 @@ def parse_category(filename: str) -> Category:
     )
 
 
+ENTRY_RE = re.compile(
+    r"^- \[([^\]]+)\]\((https?://[^)]+)\)\s*[—-]\s*(.+)$"
+)
+
+
+def github_repo(url: str) -> str | None:
+    match = re.fullmatch(r"https://github\.com/([^/]+)/([^/#?]+)/?", url)
+    if not match:
+        return None
+    return f"{match.group(1)}/{match.group(2)}"
+
+
+def entry_teaser(description: str, max_words: int = 14) -> str:
+    domain, separator, detail = description.partition(":")
+    if not separator:
+        words = description.split()
+        return description if len(words) <= max_words else " ".join(words[:max_words]) + "…"
+
+    detail_words = detail.strip().split()
+    if len(detail_words) > max_words:
+        detail = " ".join(detail_words[:max_words]).rstrip(",;:.—-") + "…"
+    else:
+        detail = detail.strip()
+    return f"{domain.strip()} — {detail}"
+
+
+def entry_details(line: str) -> list[str]:
+    match = ENTRY_RE.match(line)
+    if not match:
+        return [line]
+
+    name, url, description = match.groups()
+    repo = github_repo(url)
+    badge = (
+        f' <img src="https://badgen.net/github/stars/{repo}" height="14" alt="GitHub stars"/>'
+        if repo
+        else ""
+    )
+    link_label = "View Repository" if repo else "View Source"
+
+    return [
+        "<details>",
+        f'  <summary><b>{escape(name)}</b>{badge} - <i>{escape(entry_teaser(description))}</i></summary>',
+        "  <blockquote>",
+        f"    {description}",
+        "    <br><br>",
+        f'    <a href="{url}">🔗 <b>{link_label}</b></a>',
+        "  </blockquote>",
+        "</details>",
+        "",
+    ]
+
+
 def category_details(category: Category) -> list[str]:
     lines = [
         "<details>",
-        f"<summary><b>{category.title}</b> — {category.count} {pluralize(category.count)}</summary>",
+        f"<summary><b>{category.title}</b></summary>",
         "<br>",
         "",
         category.description,
         "",
-        f"[View source category]({category.path})",
-        "",
     ]
-    lines.extend(category.lines)
+
+    for line in category.lines:
+        if not line.strip():
+            continue
+        if line.startswith("- ["):
+            lines.extend(entry_details(line))
+        else:
+            lines.extend([line, ""])
+
+    while lines and not lines[-1].strip():
+        lines.pop()
     lines.extend(["", "</details>", ""])
     return lines
 
 
-def group_count(group: dict[str, object], categories: dict[str, Category]) -> int:
-    return sum(
-        categories[filename].count
-        for _, filenames in group["sections"]
-        for filename in filenames
-    )
-
-
 def group_details(group: dict[str, object], categories: dict[str, Category]) -> list[str]:
-    count = group_count(group, categories)
     lines = [
         f'<div id="{group["id"]}"></div>',
         "",
         "<details open>",
-        f'<summary><strong>{group["title"]}</strong> — {count} {pluralize(count)}</summary>',
+        f'<summary><strong>{group["title"]}</strong></summary>',
         "<br>",
         "",
         str(group["description"]),

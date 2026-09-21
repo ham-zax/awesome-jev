@@ -15,7 +15,7 @@ CATEGORY_GROUPS = [
         "description": "Applications where Jev makes, scores, gates, or controls a concrete decision.",
         "sections": [
             (
-                "By decision pattern",
+                "Decision Patterns",
                 [
                     "classification-routing.md",
                     "verification-guardrails.md",
@@ -25,7 +25,7 @@ CATEGORY_GROUPS = [
                 ],
             ),
             (
-                "By application domain",
+                "Application Domains",
                 [
                     "games-robotics-simulation.md",
                     "finance-trading.md",
@@ -208,24 +208,61 @@ def entry_details(line: str) -> list[str]:
 def category_details(category: Category) -> list[str]:
     lines = [
         "<details>",
-        f"<summary><b>{category.title}</b></summary>",
-        "<br>",
-        "",
-        category.description,
+        f"<summary><b>{escape(category.title)}</b></summary>",
+        "<blockquote>",
+        f"<p>{escape(category.description)}</p>",
         "",
     ]
 
+    subgroup_open = False
     for line in category.lines:
         if not line.strip():
             continue
+
+        if line.startswith("### "):
+            if subgroup_open:
+                lines.extend(["</blockquote>", "</details>", ""])
+            subgroup_title = line[4:].strip()
+            lines.extend(
+                [
+                    "<details open>",
+                    f"<summary><strong>{escape(subgroup_title)}</strong></summary>",
+                    "<blockquote>",
+                    "",
+                ]
+            )
+            subgroup_open = True
+            continue
+
         if line.startswith("- ["):
             lines.extend(entry_details(line))
-        else:
-            lines.extend([line, ""])
 
-    while lines and not lines[-1].strip():
-        lines.pop()
-    lines.extend(["", "</details>", ""])
+    if subgroup_open:
+        lines.extend(["</blockquote>", "</details>", ""])
+
+    lines.extend(["</blockquote>", "</details>", ""])
+    return lines
+
+
+def section_details(
+    section_title: str,
+    filenames: list[str],
+    categories: dict[str, Category],
+) -> list[str]:
+    lines = [
+        "<details open>",
+        f"<summary><strong>{escape(section_title)}</strong></summary>",
+        "<blockquote>",
+        "",
+    ]
+
+    for filename in filenames:
+        category = categories[filename]
+        if category.count == 0:
+            continue
+        lines.extend(category_details(category))
+
+    lines.extend(["</blockquote>", "</details>", ""])
     return lines
 
 
@@ -239,18 +276,22 @@ def group_details(group: dict[str, object], categories: dict[str, Category]) -> 
         "",
         str(group["description"]),
         "",
+        "<blockquote>",
+        "",
     ]
 
     for section_title, filenames in group["sections"]:
         if section_title:
-            lines.extend([f"### {section_title}", ""])
+            lines.extend(section_details(section_title, filenames, categories))
+            continue
+
         for filename in filenames:
             category = categories[filename]
             if category.count == 0:
                 continue
             lines.extend(category_details(category))
 
-    lines.extend(["</details>", "", "<br>", ""])
+    lines.extend(["</blockquote>", "</details>", "", "<br>", ""])
     return lines
 
 

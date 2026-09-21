@@ -31,15 +31,20 @@ Browse by **what Jev does** first. Use cases are grouped by reusable decision pa
 
 Applications where Jev makes, scores, gates, or controls a concrete decision.
 
-### By decision pattern
+<blockquote>
+
+<details open>
+<summary><strong>Decision Patterns</strong></summary>
+<blockquote>
 
 <details>
-<summary><b>Classification & Routing</b></summary>
-<br>
+<summary><b>Classification &amp; Routing</b></summary>
+<blockquote>
+<p>Use this category when Jev classifies incoming state or selects a destination, model, tool, handler, or other bounded option.</p>
 
-Use this category when Jev classifies incoming state or selects a destination, model, tool, handler, or other bounded option.
-
-### Model, tool & workflow routing
+<details open>
+<summary><strong>Model, tool &amp; workflow routing</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>jev-router</b> <img src="https://badgen.net/github/stars/gargpratyush/jev-router" height="14" alt="GitHub stars"/> - <i>Developer tooling — asks Jev to choose the least-expensive capable model for each Claude Code task before…</i></summary>
@@ -167,7 +172,12 @@ Use this category when Jev classifies incoming state or selects a destination, m
   </blockquote>
 </details>
 
-### Content, document & intent classification
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Content, document &amp; intent classification</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>Notra</b> <img src="https://badgen.net/github/stars/usenotra/notra" height="14" alt="GitHub stars"/> - <i>Marketing analytics — switches brand-visibility classifiers from an LLM to Jev Boolean decisions behind `NOTRA_JEV_CLASSIFIERS`, using a…</i></summary>
@@ -250,7 +260,12 @@ Use this category when Jev classifies incoming state or selects a destination, m
   </blockquote>
 </details>
 
-### Triage & operational routing
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Triage &amp; operational routing</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>DiffJury</b> <img src="https://badgen.net/github/stars/raihankhan-rk/diffjury" height="14" alt="GitHub stars"/> - <i>Code review — uses Jev to classify pull-request risk before assigning the review path or human reviewer.</i></summary>
@@ -279,15 +294,20 @@ Use this category when Jev classifies incoming state or selects a destination, m
   </blockquote>
 </details>
 
+</blockquote>
+</details>
+
+</blockquote>
 </details>
 
 <details>
-<summary><b>Verification & Guardrails</b></summary>
-<br>
+<summary><b>Verification &amp; Guardrails</b></summary>
+<blockquote>
+<p>Use this category when Jev verifies evidence, checks a rule, or gates an action or output before it proceeds.</p>
 
-Use this category when Jev verifies evidence, checks a rule, or gates an action or output before it proceeds.
-
-### Agent permissions & execution gates
+<details open>
+<summary><strong>Agent permissions &amp; execution gates</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>pi-jev</b> <img src="https://badgen.net/github/stars/y0usaf/pi-jev" height="14" alt="GitHub stars"/> - <i>Agent safety — checks potentially risky Pi tool calls with Jev before allowing execution.</i></summary>
@@ -379,7 +399,12 @@ Use this category when Jev verifies evidence, checks a rule, or gates an action 
   </blockquote>
 </details>
 
-### Code, change & completion verification
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Code, change &amp; completion verification</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>is-malicious</b> <img src="https://badgen.net/github/stars/luantak/is-malicious" height="14" alt="GitHub stars"/> - <i>Software supply-chain security — asks Jev whether source and build-file chunks look malicious, escalates suspicious chunks for a…</i></summary>
@@ -507,7 +532,12 @@ Use this category when Jev verifies evidence, checks a rule, or gates an action 
   </blockquote>
 </details>
 
-### Content & quality checks
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Content &amp; quality checks</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>Sniff Test</b> <img src="https://badgen.net/github/stars/DanRWilloughby/snifftest" height="14" alt="GitHub stars"/> - <i>Writing quality — evaluates each paragraph against ten Boolean style rules at a 0.7 threshold, with CLI…</i></summary>
@@ -527,15 +557,20 @@ Use this category when Jev verifies evidence, checks a rule, or gates an action 
   </blockquote>
 </details>
 
+</blockquote>
+</details>
+
+</blockquote>
 </details>
 
 <details>
-<summary><b>Scoring & Ranking</b></summary>
-<br>
+<summary><b>Scoring &amp; Ranking</b></summary>
+<blockquote>
+<p>Use this category when Jev assigns a score, probability, relevance signal, or ordering that downstream code uses to prioritize or select items.</p>
 
-Use this category when Jev assigns a score, probability, relevance signal, or ordering that downstream code uses to prioritize or select items.
-
-### Relevance, search & selection
+<details open>
+<summary><strong>Relevance, search &amp; selection</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>citation-verifier</b> <img src="https://badgen.net/github/stars/MarissaFamularo/citation-verifier" height="14" alt="GitHub stars"/> - <i>Academic publishing — scores whether a cited paper supports the sentence that cites it, with Claude locating…</i></summary>
@@ -654,7 +689,12 @@ Use this category when Jev assigns a score, probability, relevance signal, or or
   </blockquote>
 </details>
 
-### Quality, priority & measurement
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Quality, priority &amp; measurement</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>Clean Code Judge</b> <img src="https://badgen.net/github/stars/frostney/clean-code-review" height="14" alt="GitHub stars"/> - <i>Code quality — evaluates pull-request files against 31 Boolean Clean Code smells plus size and nesting signals…</i></summary>
@@ -746,15 +786,20 @@ Use this category when Jev assigns a score, probability, relevance signal, or or
   </blockquote>
 </details>
 
+</blockquote>
+</details>
+
+</blockquote>
 </details>
 
 <details>
-<summary><b>Agent & Action Control</b></summary>
-<br>
+<summary><b>Agent &amp; Action Control</b></summary>
+<blockquote>
+<p>Use this category when a Jev decision directly changes an active loop: what to do next, whether to continue, when to escalate, or what context remains available.</p>
 
-Use this category when a Jev decision directly changes an active loop: what to do next, whether to continue, when to escalate, or what context remains available.
-
-### Browser, desktop & software actions
+<details open>
+<summary><strong>Browser, desktop &amp; software actions</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>jev-social</b> <img src="https://badgen.net/github/stars/socai-io/jev-social" height="14" alt="GitHub stars"/> - <i>Social media research — asks Jev to choose the next socai CLI operation and target on Instagram, TikTok…</i></summary>
@@ -846,7 +891,12 @@ Use this category when a Jev decision directly changes an active loop: what to d
   </blockquote>
 </details>
 
-### Loop & lifecycle control
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Loop &amp; lifecycle control</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>dsh-auto-mode</b> - <i>Coding agents — evaluates unresolved questions at the end of a DeepSeek Harness turn and returns control…</i></summary>
@@ -884,7 +934,12 @@ Use this category when a Jev decision directly changes an active loop: what to d
   </blockquote>
 </details>
 
-### Context control
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Context control</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>yoshi</b> <img src="https://badgen.net/github/stars/compozy/yoshi" height="14" alt="GitHub stars"/> - <i>Context management — uses Jev to decide which Claude Code or Codex conversation history is still needed…</i></summary>
@@ -931,7 +986,12 @@ Use this category when a Jev decision directly changes an active loop: what to d
   </blockquote>
 </details>
 
-### Physical & multimodal control
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Physical &amp; multimodal control</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>robo-harness</b> <img src="https://badgen.net/github/stars/grmkris/robo-harness" height="14" alt="GitHub stars"/> - <i>Robotics — selects bounded SO-101 joint movements from typed candidate actions with Jev under an explicit…</i></summary>
@@ -951,13 +1011,16 @@ Use this category when a Jev decision directly changes an active loop: what to d
   </blockquote>
 </details>
 
+</blockquote>
+</details>
+
+</blockquote>
 </details>
 
 <details>
-<summary><b>Data Labeling & Curation</b></summary>
-<br>
-
-Use this category when Jev annotates, filters, links, deduplicates, or triages records at scale.
+<summary><b>Data Labeling &amp; Curation</b></summary>
+<blockquote>
+<p>Use this category when Jev annotates, filters, links, deduplicates, or triages records at scale.</p>
 
 <details>
   <summary><b>jev-align (Sutro)</b> <img src="https://badgen.net/github/stars/sutro-sh/jev-align" height="14" alt="GitHub stars"/> - <i>Dataset engineering — evaluates CSV, Parquet, and JSONL rows with typed Jev questions, sends ambiguous and audit…</i></summary>
@@ -1004,17 +1067,24 @@ Use this category when Jev annotates, filters, links, deduplicates, or triages r
   </blockquote>
 </details>
 
+</blockquote>
 </details>
 
-### By application domain
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Application Domains</strong></summary>
+<blockquote>
 
 <details>
-<summary><b>Games, Robotics & Simulation</b></summary>
-<br>
+<summary><b>Games, Robotics &amp; Simulation</b></summary>
+<blockquote>
+<p>Use this category for Jev decisions inside games, embodied-control experiments, robotics simulations, and other interactive environments where the domain is the clearest browsing signal.</p>
 
-Use this category for Jev decisions inside games, embodied-control experiments, robotics simulations, and other interactive environments where the domain is the clearest browsing signal.
-
-### Games & puzzles
+<details open>
+<summary><strong>Games &amp; puzzles</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>typesafe-mario</b> <img src="https://badgen.net/github/stars/fhshaik/typesafe-mario" height="14" alt="GitHub stars"/> - <i>Gaming — reads structured Super Mario Bros. emulator state and uses Jev to choose each action…</i></summary>
@@ -1088,7 +1158,12 @@ Use this category for Jev decisions inside games, embodied-control experiments, 
   </blockquote>
 </details>
 
-### Robotics & autonomy
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Robotics &amp; autonomy</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>jev-drone</b> <img src="https://badgen.net/github/stars/RomanSlack/jev-drone" height="14" alt="GitHub stars"/> - <i>Robotics simulation — places a Jev decision model in the camera-only MuJoCo drone control loop at 2.5…</i></summary>
@@ -1126,7 +1201,12 @@ Use this category for Jev decisions inside games, embodied-control experiments, 
   </blockquote>
 </details>
 
-### Interactive simulations
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Interactive simulations</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>typesafe-playground</b> <img src="https://badgen.net/github/stars/kavehmz/typesafe-playground" height="14" alt="GitHub stars"/> - <i>Interactive demos — collects small Jev experiments that expose the decision process directly, from support-message routing to…</i></summary>
@@ -1146,13 +1226,16 @@ Use this category for Jev decisions inside games, embodied-control experiments, 
   </blockquote>
 </details>
 
+</blockquote>
+</details>
+
+</blockquote>
 </details>
 
 <details>
-<summary><b>Finance & Trading</b></summary>
-<br>
-
-Use this category for Jev-based market, investment, or trading decisions where the financial domain is the clearest way to browse the project.
+<summary><b>Finance &amp; Trading</b></summary>
+<blockquote>
+<p>Use this category for Jev-based market, investment, or trading decisions where the financial domain is the clearest way to browse the project.</p>
 
 <details>
   <summary><b>Jevinik</b> <img src="https://badgen.net/github/stars/unicodeveloper/jevocks" height="14" alt="GitHub stars"/> - <i>Equities — gathers live market evidence through Valyu and asks Jev whether a stock is likely…</i></summary>
@@ -1190,13 +1273,13 @@ Use this category for Jev-based market, investment, or trading decisions where t
   </blockquote>
 </details>
 
+</blockquote>
 </details>
 
 <details>
-<summary><b>Content Filtering & Moderation</b></summary>
-<br>
-
-Use this category when Jev filters or moderates user-facing content for abuse, profanity, spoilers, or other policy-defined conditions.
+<summary><b>Content Filtering &amp; Moderation</b></summary>
+<blockquote>
+<p>Use this category when Jev filters or moderates user-facing content for abuse, profanity, spoilers, or other policy-defined conditions.</p>
 
 <details>
   <summary><b>Jev Moderation Bot</b> <img src="https://badgen.net/github/stars/brainstormity/Jev-Moderation-Bot" height="14" alt="GitHub stars"/> - <i>Community moderation — scores Discord messages for phishing, spam, and social-engineering signals with Jev and feeds the…</i></summary>
@@ -1234,8 +1317,13 @@ Use this category when Jev filters or moderates user-facing content for abuse, p
   </blockquote>
 </details>
 
+</blockquote>
 </details>
 
+</blockquote>
+</details>
+
+</blockquote>
 </details>
 
 <br>
@@ -1248,13 +1336,16 @@ Use this category when Jev filters or moderates user-facing content for abuse, p
 
 Clients, gateways, runtimes, framework adapters, and developer tools for integrating Jev.
 
+<blockquote>
+
 <details>
-<summary><b>SDKs, Integrations & Infrastructure</b></summary>
-<br>
+<summary><b>SDKs, Integrations &amp; Infrastructure</b></summary>
+<blockquote>
+<p>Use this category for software that exposes Jev to another language, framework, runtime, protocol, database, or agent environment rather than defining one application decision of its own.</p>
 
-Use this category for software that exposes Jev to another language, framework, runtime, protocol, database, or agent environment rather than defining one application decision of its own.
-
-### SDKs & language clients
+<details open>
+<summary><strong>SDKs &amp; language clients</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>zio-typesafe-ai</b> <img src="https://badgen.net/github/stars/jamesward/zio-typesafe-ai" height="14" alt="GitHub stars"/> - <i>Scala — provides a ZIO client and typed DSL for Jev decisions.</i></summary>
@@ -1391,7 +1482,12 @@ Use this category for software that exposes Jev to another language, framework, 
   </blockquote>
 </details>
 
-### Gateways, MCP & protocol bridges
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Gateways, MCP &amp; protocol bridges</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>jev-mcp (jkudish)</b> <img src="https://badgen.net/github/stars/jkudish/jev-mcp" height="14" alt="GitHub stars"/> - <i>MCP — exposes Jev claim verification, content screening, and candidate ranking as standard MCP tools.</i></summary>
@@ -1483,7 +1579,12 @@ Use this category for software that exposes Jev to another language, framework, 
   </blockquote>
 </details>
 
-### Framework & agent integrations
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Framework &amp; agent integrations</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>eve</b> <img src="https://badgen.net/github/stars/vercel/eve" height="14" alt="GitHub stars"/> - <i>Agent frameworks — uses `typesafe-ai/jev` as the default model in eve’s experimental evaluation path.</i></summary>
@@ -1674,7 +1775,12 @@ Use this category for software that exposes Jev to another language, framework, 
   </blockquote>
 </details>
 
-### Data & query integrations
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Data &amp; query integrations</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>LlamaIndex Jev</b> <img src="https://badgen.net/github/stars/WiktorB2004/llama-index-jev" height="14" alt="GitHub stars"/> - <i>Retrieval and RAG — adapts Jev to LlamaIndex for passage scoring and query-engine selection, with the project reporting…</i></summary>
@@ -1712,8 +1818,13 @@ Use this category for software that exposes Jev to another language, framework, 
   </blockquote>
 </details>
 
+</blockquote>
 </details>
 
+</blockquote>
+</details>
+
+</blockquote>
 </details>
 
 <br>
@@ -1726,13 +1837,16 @@ Use this category for software that exposes Jev to another language, framework, 
 
 Evaluators, comparative benchmarks, calibration studies, open reproductions, and Jev-style model research.
 
+<blockquote>
+
 <details>
-<summary><b>Evaluation & Benchmarks</b></summary>
-<br>
+<summary><b>Evaluation &amp; Benchmarks</b></summary>
+<blockquote>
+<p>Use this category for Jev-based evaluators and for measured studies that compare, benchmark, or stress-test Jev on a defined task.</p>
 
-Use this category for Jev-based evaluators and for measured studies that compare, benchmark, or stress-test Jev on a defined task.
-
-### Jev as evaluator
+<details open>
+<summary><strong>Jev as evaluator</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>Jev Web Analyzer</b> <img src="https://badgen.net/github/stars/replynodes/jev-web-analyzer" height="14" alt="GitHub stars"/> - <i>Product evaluation — converts a public SaaS landing page to Markdown, asks Jev ten bounded questions about…</i></summary>
@@ -1761,7 +1875,12 @@ Use this category for Jev-based evaluators and for measured studies that compare
   </blockquote>
 </details>
 
-### Benchmarks & comparative studies
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Benchmarks &amp; comparative studies</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>Jev Playground</b> <img src="https://badgen.net/github/stars/hegargarcia/jev-playground" height="14" alt="GitHub stars"/> - <i>Model comparison — evaluates Jev, Luna, Haiku, and Gemini on validated legal-move selection in explicit-state games, tracking…</i></summary>
@@ -1871,15 +1990,20 @@ Use this category for Jev-based evaluators and for measured studies that compare
   </blockquote>
 </details>
 
+</blockquote>
+</details>
+
+</blockquote>
 </details>
 
 <details>
-<summary><b>Calibration & Model Research</b></summary>
-<br>
+<summary><b>Calibration &amp; Model Research</b></summary>
+<blockquote>
+<p>Use this category for confidence calibration, threshold selection, open Jev-style models, reproduction work, training recipes, and local deployment research.</p>
 
-Use this category for confidence calibration, threshold selection, open Jev-style models, reproduction work, training recipes, and local deployment research.
-
-### Calibration & measurement
+<details open>
+<summary><strong>Calibration &amp; measurement</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>jevcal</b> <img src="https://badgen.net/github/stars/abhixhek/jevcal" height="14" alt="GitHub stars"/> - <i>Calibration tooling — fits a confidence threshold to a target accuracy on labeled data, checks it on…</i></summary>
@@ -1926,7 +2050,12 @@ Use this category for confidence calibration, threshold selection, open Jev-styl
   </blockquote>
 </details>
 
-### Open models & reproductions
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Open models &amp; reproductions</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>decider</b> <img src="https://badgen.net/github/stars/Mapika/decider" height="14" alt="GitHub stars"/> - <i>Open model — fine-tunes Qwen3.5-2B into a one-pass typed decision model that emits calibrated probabilities.</i></summary>
@@ -2063,7 +2192,12 @@ Use this category for confidence calibration, threshold selection, open Jev-styl
   </blockquote>
 </details>
 
-### Training & deployment tooling
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Training &amp; deployment tooling</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>jevlike</b> <img src="https://badgen.net/github/stars/vinnylarouge/jevlike" height="14" alt="GitHub stars"/> - <i>Training library — trains compact models that score a changing list of text options and return one…</i></summary>
@@ -2119,7 +2253,12 @@ Use this category for confidence calibration, threshold selection, open Jev-styl
   </blockquote>
 </details>
 
-### Experiments
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Experiments</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>jevinci</b> <img src="https://badgen.net/github/stars/achimala/jevinci" height="14" alt="GitHub stars"/> - <i>Creative experiment — asks Jev to predict image pixel colours in parallel and uses confidence to control…</i></summary>
@@ -2130,8 +2269,13 @@ Use this category for confidence calibration, threshold selection, open Jev-styl
   </blockquote>
 </details>
 
+</blockquote>
 </details>
 
+</blockquote>
+</details>
+
+</blockquote>
 </details>
 
 <br>
@@ -2144,13 +2288,16 @@ Use this category for confidence calibration, threshold selection, open Jev-styl
 
 Tutorials, explainers, technical analyses, case reports, directories, and public discussion.
 
+<blockquote>
+
 <details>
-<summary><b>Guides, Analysis & Community</b></summary>
-<br>
+<summary><b>Guides, Analysis &amp; Community</b></summary>
+<blockquote>
+<p>Use this category for tutorials, explainers, technical analyses, public discussions, directories, case reports, and demo collections that help readers understand Jev or the surrounding System One pattern.</p>
 
-Use this category for tutorials, explainers, technical analyses, public discussions, directories, case reports, and demo collections that help readers understand Jev or the surrounding System One pattern.
-
-### Tutorials & explainers
+<details open>
+<summary><strong>Tutorials &amp; explainers</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>Jev 中文解读</b> - <i>X (Chinese) — explains Jev to Chinese readers as a calibrated typed-decision layer rather than a text-generation…</i></summary>
@@ -2260,7 +2407,12 @@ Use this category for tutorials, explainers, technical analyses, public discussi
   </blockquote>
 </details>
 
-### Technical analysis & critique
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Technical analysis &amp; critique</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>MLP on Qwen 4B mimicking Jev</b> - <i>X — reports an experiment in which a small MLP over Qwen 4B reproduces Jev-like decision…</i></summary>
@@ -2370,7 +2522,12 @@ Use this category for tutorials, explainers, technical analyses, public discussi
   </blockquote>
 </details>
 
-### Demos & implementation reports
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Demos &amp; implementation reports</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>Model router built with Jev</b> - <i>X — demonstrates a request router that asks Jev which model should receive each prompt.</i></summary>
@@ -2543,7 +2700,12 @@ Use this category for tutorials, explainers, technical analyses, public discussi
   </blockquote>
 </details>
 
-### Launch & ecosystem signals
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Launch &amp; ecosystem signals</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>Introducing System One Models and Jev (Hacker News)</b> - <i>Hacker News — launch discussion covering whether typed decisions can replace LLM calls for classification, routing, and…</i></summary>
@@ -2617,7 +2779,12 @@ Use this category for tutorials, explainers, technical analyses, public discussi
   </blockquote>
 </details>
 
-### Directories, roundups & field notes
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Directories, roundups &amp; field notes</strong></summary>
+<blockquote>
 
 <details>
   <summary><b>Awesome Jev by TypeSafe</b> <img src="https://badgen.net/github/stars/Anil-matcha/awesome-jev-by-typesafe" height="14" alt="GitHub stars"/> - <i>GitHub — curates Jev use cases, patterns, prompts, starter code, and a video walkthrough of eight…</i></summary>
@@ -2691,8 +2858,13 @@ Use this category for tutorials, explainers, technical analyses, public discussi
   </blockquote>
 </details>
 
+</blockquote>
 </details>
 
+</blockquote>
+</details>
+
+</blockquote>
 </details>
 
 <br>

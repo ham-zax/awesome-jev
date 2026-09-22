@@ -178,6 +178,7 @@ Choose a **decision pattern** when the reusable role Jev plays is the useful bro
 
 Choose an **application domain** when the domain itself is the clearer browsing signal and no decision-pattern category describes the project better:
 
+- `categories/adaptive-realtime-ui.md` — interfaces where Jev changes what the user sees or can do live
 - `categories/games-robotics-simulation.md` — games, robotics, and interactive simulations
 - `categories/finance-trading.md` — trading, investment, and market decisions
 - `categories/legal-compliance.md` — deployed legal, regulatory, contract, and policy-conformance decisions

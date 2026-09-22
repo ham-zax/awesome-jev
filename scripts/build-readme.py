@@ -27,6 +27,7 @@ CATEGORY_GROUPS = [
             (
                 "Application Domains",
                 [
+                    "adaptive-realtime-ui.md",
                     "games-robotics-simulation.md",
                     "finance-trading.md",
                     "legal-compliance.md",

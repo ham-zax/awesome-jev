@@ -12,11 +12,21 @@ Use this category for Jev-based evaluators and for measured studies that compare
 
 ### Jev as evaluator
 
+- [pytest-jev](https://github.com/allebee/pytest-jev) — LLM app testing: uses Jev Noul, Choice, and Score checks inside pytest for plain-English assertions and publishes a small comparison against Claude Sonnet.
+
 - [Jev Web Analyzer](https://github.com/replynodes/jev-web-analyzer) — Product evaluation: converts a public SaaS landing page to Markdown, asks Jev ten bounded questions about first-visit comprehension, and returns inspectable findings for the first change to consider.
 - [minutes](https://github.com/silverstein/minutes) — Meeting software: uses Jev in the live-voice path to run bounded evaluations inside a local-first transcription application.
 - [LegalForecast-MTD](https://github.com/johnhughes3/LegalForecastBench) — Legal evaluation: asks Jev to forecast federal motion-to-dismiss rulings from the judge’s written record and scores the resulting probabilities with claim-defendant micro-Brier metrics.
 
 ### Benchmarks & comparative studies
+
+- [DeepSearcher stopping-policy experiment](https://github.com/zilliztech/deep-searcher/blob/master/evaluation/jev_stopping/README.md) — Agentic search: evaluates a Jev Noul stopping policy over accumulated evidence, comparing stop/continue behavior, evidence recall, and decision cost across bounded search rounds.
+- [Jev vs GPT-4.1 on a synthetic survey](https://github.com/jjd-lab/jev-synthetic-survey) — Survey research: compares Jev and GPT-4.1 across 24,596 paired survey cells under fixed criteria, with the authors reporting larger effects from Noul-vs-Choice framing than from the model swap.
+- [Jevals.com](https://jevals.com/) — Model evaluation: benchmarks Jev and six LLMs on Noul, Choice, and Score tasks over human-labeled datasets and publishes per-decision probabilities.
+- [Jev IDS](https://github.com/jev-ids/jev-ids) — Network security: evaluates a Jev-based intrusion classifier on NSL-KDD against an LLM and Random Forest, reporting latency, cost, and false-alarm comparisons.
+- [jev-test](https://github.com/souvikr/jev-test) — Model benchmarking: reproducibly compares Jev Noul, Choice, and Score decisions through OpenRouter with prompt-and-parse LLM baselines.
+- [Jev vs Fable on 520 real social posts](https://seenpaid.com/blog/jev-review-tested-against-fable) — Social media: compares Jev’s advisory caption checks with Fable labels over 520 posts and reports agreement, latency, and cost without using Jev as a publishing gate.
+- [Laya vs Jev arena](https://github.com/PromptEngineer48/laya-vs-jev-arena) — Model comparison: runs Laya and Jev through the same Snake and fighting-game environments to compare decisions under identical game code.
 
 - [Jev Playground](https://github.com/hegargarcia/jev-playground) — Model comparison: evaluates Jev, Luna, Haiku, and Gemini on validated legal-move selection in explicit-state games, tracking decision quality and consistency across sequences.
 - [Jev vs Mistral and Gemini for event validation](https://nearhere.events/blog/typesafe-jev-mistral-gemini-event-validation) — Event discovery: compares Jev with Mistral Small and Gemini Flash-Lite on the same local-event validation task.

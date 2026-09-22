@@ -20,6 +20,9 @@ Use this category for confidence calibration, threshold selection, open Jev-styl
 
 ### Open models & reproductions
 
+- [Visual-JEV](https://github.com/jiangxiluning/Visual-Jev) — Open model: adapts a Qwen3.5-4B-based Jev-style model for direct multimodal image input instead of converting visual state to text first.
+- [OpenDecision](https://github.com/deepanwadhwa/OpenDecision) — Open alternative: provides a local Jev-style engine for Choice, Noul, and Score questions over structured state and documents.
+
 - [decider](https://github.com/Mapika/decider) — Open model: fine-tunes Qwen3.5-2B into a one-pass typed decision model that emits calibrated probabilities.
 - [openjev](https://github.com/zhihz/openjev) — Open research: provides a local Jev-inspired model for bilingual probability questions over context, questions, and candidate answers.
 - [Parallel Constrained Decoding (Qwen2.5-1B-RLCD)](https://huggingface.co/spaces/drinkmoonshine/parallel-constrained-decoding) — Open research: demonstrates RLCD-trained parallel constrained decoding on Qwen2.5-1B as an open System One-style alternative.

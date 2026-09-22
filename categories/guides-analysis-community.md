@@ -12,6 +12,13 @@ Use this category for tutorials, explainers, technical analyses, public discussi
 
 ### Tutorials & explainers
 
+- [Jev by Example](https://github.com/ReallyArtificial/jev-by-example) — Agent development: runnable JavaScript lessons cover memory reconciliation, recovery proposals, handoff checks, and explicit application policies around Jev decisions.
+- [Search with Jev and Milvus](https://github.com/milvus-io/bootcamp/tree/master/bootcamp/RAG/search_with_jev) — Search engineering: nine runnable notebooks combine Milvus retrieval with Jev judgments for ranking, filtering, routing, and stopping.
+- [jev-usecases](https://github.com/kenhuangus/jev-usecases) — Reference harnesses: collects production-shaped examples built around confidence-gated Jev decision logic.
+- [A deep dive into Jev](https://flaviocopes.com/jev/) — Blog: explains the System One model, typed decision interface, and how Jev differs from general text-generation models.
+- [Jev Tutorial](https://www.jev-tutorial.org/) — Site: multilingual implementation guide covering Choice, Score, Noul, Python SDK calls, thresholds, deterministic fallbacks, and human escalation.
+- [Jev vs GPT-6 Astra: when to use each](https://vercel.com/i/jev-vs-gpt-6-astra) — Guide: compares when to use Jev versus a frontier generative model and links several Jev use cases.
+
 - [Jev 中文解读](https://x.com/dotey/status/2100109937237987823) — X (Chinese): explains Jev to Chinese readers as a calibrated typed-decision layer rather than a text-generation model.
 - [WTF is Jev, ELI5](https://x.com/mvanhorn/status/2100761338918363550) — X: introduces Jev with the “AI multiple choice, not AI essay writing” analogy and explains the basic System One interface.
 - [Full Jev tutorial](https://x.com/moritzkremb/status/2100715237267660873) — X: walks through the API and then builds voice-controlled browsing, memory, and YouTube-preprocessing examples.
@@ -26,6 +33,14 @@ Use this category for tutorials, explainers, technical analyses, public discussi
 - [Building a Harness with Jev](https://www.langchain.com/blog/building-a-harness-with-jev) — LangChain: walks through adding Jev to an agent harness as a bounded decision layer and connects the design to LangChain’s later evaluator work.
 
 ### Technical analysis & critique
+
+- [JEV captcha arbitrage](https://x.com/kenonews/status/2101656436136661163) — X: analyzes CAPTCHA-solving economics using Jev’s per-decision pricing against marketplace payouts.
+- [Replacing an agentic classification loop with Jev](https://blog.r6i.it/typesafe-jev-vs-agentic-loop.html) — Blog: replaces an agentic classification loop with one Jev call and reports a 7× speedup.
+- [Jev and the System One Model (Latent Space)](https://www.latent.space/p/jev) — Podcast: Diogo Almeida discusses RLCD, reliability, inference economics, and System One models.
+- [Jev 1.13 jaggedness](https://docs.typesafe.ai/model-jaggedness/jev-1.13) — Documentation: TypeSafe’s page on model jaggedness for the Jev 1.13 release.
+- [Jev cannot emit an invalid output, but where is the reliability curve?](https://www.reddit.com/r/ArtificialInteligence/comments/1wm873q/typesafes_jev_cannot_emit_an_invalid_output_but/) — Reddit: questions whether Jev’s calibration claims are backed by published ECE or reliability curves while accepting its typed-output guarantee.
+- [Why I couldn't build Jev at OpenAI](https://www.youtube.com/watch?v=cFx9Z3ZXca0) — Video: Diogo Almeida explains the design motivation behind System One models and why the work became a separate company.
+- [TypeSafe's Jev Can't See. I Made It Guess What I Drew Anyway](https://mikulskibartosz.name/typesafe-jev-guess-what-i-drew) — Blog: explores what Jev can infer from textual descriptions of drawings despite lacking direct image input.
 
 - [MLP on Qwen 4B mimicking Jev](https://x.com/justALEXWORTEGA/status/2100341039986798930) — X: reports an experiment in which a small MLP over Qwen 4B reproduces Jev-like decision behavior.
 - [Running a local Typesafe Jev](https://x.com/wmoto_ai/status/2100454049359577516) — X (Japanese): documents an attempt to reproduce the Jev interaction pattern locally and notes remaining speed limitations.
@@ -42,12 +57,13 @@ Use this category for tutorials, explainers, technical analyses, public discussi
 
 ### Demos & implementation reports
 
+- [Spike: Jev as a judgement layer to cut model cost](https://github.com/open-orcha/orcha/issues/253) — Issue: proposes moving agent judgment into Jev to reduce model cost inside a multi-agent orchestration platform.
+
 - [Model router built with Jev](https://x.com/ephraimduncan/status/2100454070536351824) — X: demonstrates a request router that asks Jev which model should receive each prompt.
 - [Jev as an AI agent safety monitor](https://x.com/isNickMa/status/2100566407524344225) — X: reports using Jev to check agent actions before execution and compares attack catches, false blocks, and latency.
 - [Rethinking security engineering with Jev](https://x.com/Kostastsale/status/2100362415187833048) — X: proposes moving bounded security-engineering judgments from chat models to typed Jev decisions.
 - [Ask Jev anything, it will judge](https://x.com/waynesutton/status/2100487878992388279) — X: demonstrates a Convex-backed public app that returns Jev judgments rather than generated prose.
 - [First Jev use case in a Mac app](https://x.com/malekoo/status/2100439840575684910) — X: describes a shipped Mac application that sends setup and troubleshooting judgments to Jev when no language model is loaded.
-- [Testing Jev for Pi extensions (r/PiCodingAgent)](https://reddit.com/r/PiCodingAgent/comments/1whsav6/anyone_else_testing_out_typesafe_ais_new_system/) — Reddit: discusses Jev-based tool-use safety checks and prompt-complexity routing inside Pi extensions.
 - [Jev "playing" Minecraft (r/accelerate)](https://reddit.com/r/accelerate/comments/1whk9oy/new_typesafe_ai_jev_model_playing_minecraft_wip/) — Reddit: shows a work-in-progress Minecraft controller using Jev for fast structured behavior decisions.
 - [Jev for instant compaction](https://x.com/tamarajtran/status/2100694549362553153) — X: proposes replacing generated context summaries with Jev relevance decisions over existing conversation material.
 - [Reviewing unnecessary tool calls with Jev](https://x.com/altryne/status/2100739055923425589) — X: demonstrates a Claude plugin that asks Jev to flag redundant tool calls after the fact.
@@ -64,6 +80,10 @@ Use this category for tutorials, explainers, technical analyses, public discussi
 
 ### Launch & ecosystem signals
 
+- [Jev is now available to everyone, no waitlist](https://x.com/typesafeai/status/2101786156572823624) — X: TypeSafe announces Jev general availability and removal of the waitlist.
+- [TypeSafe pauses Jev signups](https://x.com/typesafeai/status/2102281508950307159) — X: TypeSafe reports pausing new Jev signups after general availability to protect service quality.
+- [Jev is on Workers AI as typesafe/jev](https://www.reddit.com/r/CloudFlare/comments/1wmjsj2/typesafes_jev_the_decisiononly_model_is_on/) — Reddit: reports Jev availability on Cloudflare Workers AI as `typesafe/jev`.
+
 - [Introducing System One Models and Jev (Hacker News)](https://news.ycombinator.com/item?id=49717558) — Hacker News: launch discussion covering whether typed decisions can replace LLM calls for classification, routing, and verification.
 - [Launch thread by Diogo Almeida](https://x.com/CompleteSkeptic/status/2099925682726002904) — X: TypeSafe’s founder introduces Jev and argues for RLCD-trained decision models as a separate path from conversational models.
 - [TypeSafe AI releases Jev (r/singularity)](https://reddit.com/r/singularity/comments/1whop6b/typesafe_ai_releases_ai_model_called_jev_rather/) — Reddit: community launch discussion framing Jev around bounded, lower-cost software decisions rather than chat.
@@ -74,6 +94,10 @@ Use this category for tutorials, explainers, technical analyses, public discussi
 - [X is all over it, Reddit is not](https://x.com/0xBOYD/status/2100619702003208701) — X: compares Jev discussion volume across platforms and cautions that ecosystem impressions depend strongly on where builders are posting.
 
 ### Directories, roundups & field notes
+
+- [Awesome TypeSafe Jev](https://github.com/AbdelStark/awesome-typesafe-jev) — Curated list: source-backed collection of Jev SDKs, live demos, and implementation examples.
+- [60 Jev use cases in Chinese](https://x.com/yaojingang/status/2101867443820113982) — X (Chinese): rounds up sixty Jev use cases and organizes them around classification, scoring, and selection.
+- [A Jev index rebuilt every four hours](https://x.com/LinearUncle/status/2102423502414618729) — X (Chinese): describes a multilingual index that scrapes X every four hours and reports more than 5,380 Jev-related posts.
 
 - [Awesome Jev by TypeSafe](https://github.com/Anil-matcha/awesome-jev-by-typesafe) — GitHub: curates Jev use cases, patterns, prompts, starter code, and a video walkthrough of eight example projects.
 - [19 open-source Jev projects](https://x.com/GoSailGlobal/status/2100859307671855113) — X (Chinese): rounds up 19 early open-source Jev projects and summarizes the kinds of applications appearing after launch.

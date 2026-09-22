@@ -47,11 +47,11 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
 <blockquote>
 
 <details>
-  <summary><b>jev-router</b> <img src="https://badgen.net/github/stars/gargpratyush/jev-router" height="14" alt="GitHub stars"/> - <i>Developer tooling — asks Jev to choose the least-expensive capable model for each Claude Code task before…</i></summary>
+  <summary><b>Jevonian</b> <img src="https://badgen.net/github/stars/xinyao27/jevonian" height="14" alt="GitHub stars"/> - <i>Coding agents — uses one Jev call to select both model route and thinking level from session…</i></summary>
   <blockquote>
-    Developer tooling: asks Jev to choose the least-expensive capable model for each Claude Code task before forwarding the request.
+    Coding agents: uses one Jev call to select both model route and thinking level from session state, quota health, capabilities, and cache-switch penalties, while deterministic rules handle pinned or disabled routes.
     <br><br>
-    <a href="https://github.com/gargpratyush/jev-router">🔗 <b>View Repository</b></a>
+    <a href="https://github.com/xinyao27/jevonian">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -65,29 +65,11 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
 </details>
 
 <details>
-  <summary><b>pi-jev-router</b> <img src="https://badgen.net/github/stars/mejiasd3v/pi-jev-router" height="14" alt="GitHub stars"/> - <i>Coding agents — routes each Pi request to a model through a Jev decision exposed via Vercel…</i></summary>
-  <blockquote>
-    Coding agents: routes each Pi request to a model through a Jev decision exposed via Vercel AI Gateway.
-    <br><br>
-    <a href="https://github.com/mejiasd3v/pi-jev-router">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
   <summary><b>jcm-router</b> <img src="https://badgen.net/github/stars/adarshmishra07/jcm-router" height="14" alt="GitHub stars"/> - <i>Coding agents — uses Jev to choose the Claude model and reasoning effort per message while preserving…</i></summary>
   <blockquote>
     Coding agents: uses Jev to choose the Claude model and reasoning effort per message while preserving the main conversation cache.
     <br><br>
     <a href="https://github.com/adarshmishra07/jcm-router">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>Jev Auto Router</b> <img src="https://badgen.net/github/stars/miniLV/Jev-Auto-Router" height="14" alt="GitHub stars"/> - <i>Coding agents — asks Jev to choose one host-available model/effort pair per Codex call, then records whether…</i></summary>
-  <blockquote>
-    Coding agents: asks Jev to choose one host-available model/effort pair per Codex call, then records whether independent verification still passes.
-    <br><br>
-    <a href="https://github.com/miniLV/Jev-Auto-Router">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -106,15 +88,6 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
     Agent infrastructure: keeps a Jev-backed routing table that decides which model should handle each request.
     <br><br>
     <a href="https://github.com/dzhng/duet-agent">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>json-render</b> <img src="https://badgen.net/github/stars/vercel-labs/json-render" height="14" alt="GitHub stars"/> - <i>Generative UI — uses Jev in the compose path to select which components and actions should appear…</i></summary>
-  <blockquote>
-    Generative UI: uses Jev in the compose path to select which components and actions should appear in a generated interface.
-    <br><br>
-    <a href="https://github.com/vercel-labs/json-render">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -145,39 +118,39 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
   </blockquote>
 </details>
 
-<details>
-  <summary><b>jev-skill-router</b> <img src="https://badgen.net/github/stars/shimo4228/jev-skill-router" height="14" alt="GitHub stars"/> - <i>Coding agents — evaluates whether Claude Code needs a skill, chooses from installed candidates with Jev, and…</i></summary>
-  <blockquote>
-    Coding agents: evaluates whether Claude Code needs a skill, chooses from installed candidates with Jev, and defaults to shadow mode unless configured to inject the suggestion.
-    <br><br>
-    <a href="https://github.com/shimo4228/jev-skill-router">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>pi-jev (TheoOliveira)</b> <img src="https://badgen.net/github/stars/TheoOliveira/pi-jev" height="14" alt="GitHub stars"/> - <i>Coding agents — adds Jev-backed semantic tool routing and typed decision calls to the Pi coding agent.</i></summary>
-  <blockquote>
-    Coding agents: adds Jev-backed semantic tool routing and typed decision calls to the Pi coding agent.
-    <br><br>
-    <a href="https://github.com/TheoOliveira/pi-jev">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>pi-typesafe-router</b> <img src="https://badgen.net/github/stars/jekozyra/pi-typesafe-router" height="14" alt="GitHub stars"/> - <i>Coding agents — routes Pi work through typed Jev decisions instead of leaving the selection to free-form…</i></summary>
-  <blockquote>
-    Coding agents: routes Pi work through typed Jev decisions instead of leaving the selection to free-form generation.
-    <br><br>
-    <a href="https://github.com/jekozyra/pi-typesafe-router">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
 </blockquote>
 </details>
 
 <details open>
 <summary><strong>Content, document &amp; intent classification</strong></summary>
 <blockquote>
+
+<details>
+  <summary><b>Diffusion Jev</b> <img src="https://badgen.net/github/stars/Hangzhi/diffusion-jev-sglang" height="14" alt="GitHub stars"/> - <i>Visual classification — serves a Jev-style DiffusionGemma/SGLang classifier that selects doodle and flower labels from image pixels…</i></summary>
+  <blockquote>
+    Visual classification: serves a Jev-style DiffusionGemma/SGLang classifier that selects doodle and flower labels from image pixels with typed Choice questions and exposes candidate scores in a drawing playground.
+    <br><br>
+    <a href="https://github.com/Hangzhi/diffusion-jev-sglang">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>AI-decision-maker</b> <img src="https://badgen.net/github/stars/zlZayn/AI-decision-maker" height="14" alt="GitHub stars"/> - <i>Data cleaning — classifies CSV columns into a fixed 13-type vocabulary and each dataset into one of…</i></summary>
+  <blockquote>
+    Data cleaning: classifies CSV columns into a fixed 13-type vocabulary and each dataset into one of six scenes with Jev Choice questions before local code applies the writes.
+    <br><br>
+    <a href="https://github.com/zlZayn/AI-decision-maker">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>jev-table-import-mapper</b> <img src="https://badgen.net/github/stars/DuvInc/jev-table-import-mapper" height="14" alt="GitHub stars"/> - <i>Data import — maps unmatched CSV columns to destination fields with Jev judgments after an exact-name pass…</i></summary>
+  <blockquote>
+    Data import: maps unmatched CSV columns to destination fields with Jev judgments after an exact-name pass, leaving low-confidence fields unmapped instead of guessing.
+    <br><br>
+    <a href="https://github.com/DuvInc/jev-table-import-mapper">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
 
 <details>
   <summary><b>Notra</b> <img src="https://badgen.net/github/stars/usenotra/notra" height="14" alt="GitHub stars"/> - <i>Marketing analytics — switches brand-visibility classifiers from an LLM to Jev Boolean decisions behind `NOTRA_JEV_CLASSIFIERS`, using a…</i></summary>
@@ -203,33 +176,6 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
     Back-office automation: asks Jev for an `invoice` or `general` Choice and routes each inbound email to the matching LangGraph handler.
     <br><br>
     <a href="https://github.com/GiesN/typesafe-jev-workflow">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>unclutter</b> <img src="https://badgen.net/github/stars/kitze/unclutter" height="14" alt="GitHub stars"/> - <i>Browser tooling — classifies page elements as clutter with Jev and removes matches under reusable template rules.</i></summary>
-  <blockquote>
-    Browser tooling: classifies page elements as clutter with Jev and removes matches under reusable template rules.
-    <br><br>
-    <a href="https://github.com/kitze/unclutter">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>typesafe-adblock</b> <img src="https://badgen.net/github/stars/realZachi/typesafe-adblock" height="14" alt="GitHub stars"/> - <i>Browser tooling — evaluates DOM elements with Jev to decide which ones should be treated as ads…</i></summary>
-  <blockquote>
-    Browser tooling: evaluates DOM elements with Jev to decide which ones should be treated as ads and removed.
-    <br><br>
-    <a href="https://github.com/realZachi/typesafe-adblock">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>sift</b> <img src="https://badgen.net/github/stars/bohutang/sift" height="14" alt="GitHub stars"/> - <i>Social feeds — classifies X posts into substance, humour, chit-chat, promotion, junk, or AI-written content with Jev.</i></summary>
-  <blockquote>
-    Social feeds: classifies X posts into substance, humour, chit-chat, promotion, junk, or AI-written content with Jev.
-    <br><br>
-    <a href="https://github.com/bohutang/sift">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -266,6 +212,24 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
 <details open>
 <summary><strong>Triage &amp; operational routing</strong></summary>
 <blockquote>
+
+<details>
+  <summary><b>Jev-Mail</b> <img src="https://badgen.net/github/stars/vynnlee/jev-mail" height="14" alt="GitHub stars"/> - <i>Email productivity — classifies Gmail messages for urgency, importance, and category in Google Apps Script, sending uncertain…</i></summary>
+  <blockquote>
+    Email productivity: classifies Gmail messages for urgency, importance, and category in Google Apps Script, sending uncertain or suspicious mail to Review without a local daemon.
+    <br><br>
+    <a href="https://github.com/vynnlee/jev-mail">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>jev-oncall</b> <img src="https://badgen.net/github/stars/mingleiw/jev-oncall" height="14" alt="GitHub stars"/> - <i>On-call operations — classifies each alert for actionability, severity, owner, and duplication, then code pages, drops, or…</i></summary>
+  <blockquote>
+    On-call operations: classifies each alert for actionability, severity, owner, and duplication, then code pages, drops, or sends it to human review under fixed thresholds and timeout fallbacks.
+    <br><br>
+    <a href="https://github.com/mingleiw/jev-oncall">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
 
 <details>
   <summary><b>DiffJury</b> <img src="https://badgen.net/github/stars/raihankhan-rk/diffjury" height="14" alt="GitHub stars"/> - <i>Code review — uses Jev to classify pull-request risk before assigning the review path or human reviewer.</i></summary>
@@ -310,20 +274,20 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
 <blockquote>
 
 <details>
-  <summary><b>pi-jev</b> <img src="https://badgen.net/github/stars/y0usaf/pi-jev" height="14" alt="GitHub stars"/> - <i>Agent safety — checks potentially risky Pi tool calls with Jev before allowing execution.</i></summary>
+  <summary><b>r2r-jev</b> <img src="https://badgen.net/github/stars/Thneoly/r2r-jev" height="14" alt="GitHub stars"/> - <i>Agent governance — checks whether each tool call exceeds scope or is destructive, feeding those judgments into…</i></summary>
   <blockquote>
-    Agent safety: checks potentially risky Pi tool calls with Jev before allowing execution.
+    Agent governance: checks whether each tool call exceeds scope or is destructive, feeding those judgments into persistent trust and authorization state that can require human override.
     <br><br>
-    <a href="https://github.com/y0usaf/pi-jev">🔗 <b>View Repository</b></a>
+    <a href="https://github.com/Thneoly/r2r-jev">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
 <details>
-  <summary><b>jev-guard</b> <img src="https://badgen.net/github/stars/leepokai/jev-guard" height="14" alt="GitHub stars"/> - <i>Agent security — screens prompts and proposed actions for Claude Code, Codex, Pi, and ACP agents, using…</i></summary>
+  <summary><b>Agent Chaperone</b> <img src="https://badgen.net/github/stars/agent-chaperone/agent-chaperone" height="14" alt="GitHub stars"/> - <i>Agent safety — screens tool calls before execution and tool results before the agent reads them through…</i></summary>
   <blockquote>
-    Agent security: screens prompts and proposed actions for Claude Code, Codex, Pi, and ACP agents, using Jev to decide when to block.
+    Agent safety: screens tool calls before execution and tool results before the agent reads them through an MCP proxy and hooks.
     <br><br>
-    <a href="https://github.com/leepokai/jev-guard">🔗 <b>View Repository</b></a>
+    <a href="https://github.com/agent-chaperone/agent-chaperone">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -346,33 +310,6 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
 </details>
 
 <details>
-  <summary><b>pi-heed</b> <img src="https://badgen.net/github/stars/Nyarlathoteppppp/pi-heed" height="14" alt="GitHub stars"/> - <i>Agent safety — checks each side-effecting Pi tool call against the user’s stated request before execution.</i></summary>
-  <blockquote>
-    Agent safety: checks each side-effecting Pi tool call against the user’s stated request before execution.
-    <br><br>
-    <a href="https://github.com/Nyarlathoteppppp/pi-heed">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>jev-axi</b> <img src="https://badgen.net/github/stars/shiftynick/jev-axi" height="14" alt="GitHub stars"/> - <i>Agent safety — scores shell commands for destructiveness, exfiltration, remote execution, and security weakening, while handling routine…</i></summary>
-  <blockquote>
-    Agent safety: scores shell commands for destructiveness, exfiltration, remote execution, and security weakening, while handling routine commands locally and sending ambiguous cases to Jev.
-    <br><br>
-    <a href="https://github.com/shiftynick/jev-axi">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>pi-verdict</b> <img src="https://badgen.net/github/stars/jesset/pi-verdict" height="14" alt="GitHub stars"/> - <i>Agent safety — combines deterministic rules with a Jev `allow / ask / deny` Choice for gray-zone…</i></summary>
-  <blockquote>
-    Agent safety: combines deterministic rules with a Jev `allow / ask / deny` Choice for gray-zone tool calls, escalating `ask` to the user and denying on errors or timeouts.
-    <br><br>
-    <a href="https://github.com/jesset/pi-verdict">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
   <summary><b>hermes-jev-approvals</b> <img src="https://badgen.net/github/stars/anpicasso/hermes-jev-approvals" height="14" alt="GitHub stars"/> - <i>Agent approvals — places Jev in front of Hermes Agent command approvals; the project reports 8.7× faster…</i></summary>
   <blockquote>
     Agent approvals: places Jev in front of Hermes Agent command approvals; the project reports 8.7× faster decisions and 4.4× fewer user prompts in its proof of concept.
@@ -387,15 +324,6 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
     Agent safety: applies deterministic rules first, then a typed Jev check for remaining tool calls, and publishes a rerunnable 300-call injection evaluation of the gate.
     <br><br>
     <a href="https://github.com/eugeniughelbur/jev-engineering">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>Reflex</b> <img src="https://badgen.net/github/stars/kaustav1996/reflex" height="14" alt="GitHub stars"/> - <i>Coding agents — checks each state-changing Pi tool call with five Jev risk questions plus a risk…</i></summary>
-  <blockquote>
-    Coding agents: checks each state-changing Pi tool call with five Jev risk questions plus a risk Score, then maps the result to allow, ask, or block under user-configured policy.
-    <br><br>
-    <a href="https://github.com/kaustav1996/reflex">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -430,15 +358,6 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
     Engineering workflow: uses Jev as a typed verification judge in its eval testkit so agent-produced work can be gated without a free-form reviewer.
     <br><br>
     <a href="https://github.com/different-ai/openwork">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>Foreman</b> <img src="https://badgen.net/github/stars/thruwire/foreman" height="14" alt="GitHub stars"/> - <i>Software factories — asks Jev whether a Codex worker’s implementation is complete, whether its tests are sufficient…</i></summary>
-  <blockquote>
-    Software factories: asks Jev whether a Codex worker’s implementation is complete, whether its tests are sufficient, and whether human review is required.
-    <br><br>
-    <a href="https://github.com/thruwire/foreman">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -523,15 +442,6 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
   </blockquote>
 </details>
 
-<details>
-  <summary><b>jev-belay</b> <img src="https://badgen.net/github/stars/valentynkit/jev-belay" height="14" alt="GitHub stars"/> - <i>Coding agents — runs a four-question Jev completion check only when files changed without a later passing…</i></summary>
-  <blockquote>
-    Coding agents: runs a four-question Jev completion check only when files changed without a later passing verification, and fails open if the check itself errors.
-    <br><br>
-    <a href="https://github.com/valentynkit/jev-belay">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
 </blockquote>
 </details>
 
@@ -540,11 +450,11 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
 <blockquote>
 
 <details>
-  <summary><b>Sniff Test</b> <img src="https://badgen.net/github/stars/DanRWilloughby/snifftest" height="14" alt="GitHub stars"/> - <i>Writing quality — evaluates each paragraph against ten Boolean style rules at a 0.7 threshold, with CLI…</i></summary>
+  <summary><b>GeekLink Jev Subtitle Translator</b> <img src="https://badgen.net/github/stars/GeekLinkDev/jev-subtitle-translator" height="14" alt="GitHub stars"/> - <i>Translation QA — reviews each translated subtitle line with Jev for omissions, changed meaning, names, numbers, negation…</i></summary>
   <blockquote>
-    Writing quality: evaluates each paragraph against ten Boolean style rules at a 0.7 threshold, with CLI, pre-commit, GitHub Action, and Claude Code integrations.
+    Translation QA: reviews each translated subtitle line with Jev for omissions, changed meaning, names, numbers, negation, and other defects before export.
     <br><br>
-    <a href="https://github.com/DanRWilloughby/snifftest">🔗 <b>View Repository</b></a>
+    <a href="https://github.com/GeekLinkDev/jev-subtitle-translator">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -554,6 +464,22 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
     UI and writing quality: applies Jev probabilities to semantic style rules for interface copy, prose, and agent instructions while keeping measurable rules local and allowing active findings to fail a run.
     <br><br>
     <a href="https://github.com/mblode/taste-lint">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Workflow &amp; semantic gates</strong></summary>
+<blockquote>
+
+<details>
+  <summary><b>TryJevAI</b> - <i>Scheduling — distinguishes a mentioned time from an agreed meeting time with a Choice that includes…</i></summary>
+  <blockquote>
+    Scheduling: distinguishes a mentioned time from an agreed meeting time with a Choice that includes `Unresolved`, prompting for clarification when the agreement is not established.
+    <br><br>
+    <a href="https://tryjevai.com/">🔗 <b>View Source</b></a>
   </blockquote>
 </details>
 
@@ -571,6 +497,60 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
 <details open>
 <summary><strong>Relevance, search &amp; selection</strong></summary>
 <blockquote>
+
+<details>
+  <summary><b>hearth-jev-rental-search</b> <img src="https://badgen.net/github/stars/Nancy-Chauhan/hearth-jev-rental-search" height="14" alt="GitHub stars"/> - <i>Housing search — filters multi-source rental listings against user criteria with Jev so only plausible matches advance.</i></summary>
+  <blockquote>
+    Housing search: filters multi-source rental listings against user criteria with Jev so only plausible matches advance.
+    <br><br>
+    <a href="https://github.com/Nancy-Chauhan/hearth-jev-rental-search">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>jev-resume-screening</b> <img src="https://badgen.net/github/stars/nanami-0713/jev-resume-screening" height="14" alt="GitHub stars"/> - <i>Recruiting — evaluates a resume against a job description with evidence gates, Score dimensions, and a…</i></summary>
+  <blockquote>
+    Recruiting: evaluates a resume against a job description with evidence gates, Score dimensions, and a routing Choice, escalating low-confidence cases to human review.
+    <br><br>
+    <a href="https://github.com/nanami-0713/jev-resume-screening">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>hippo-memory</b> <img src="https://badgen.net/github/stars/kitfunso/hippo-memory" height="14" alt="GitHub stars"/> - <i>Agent memory — reranks retrieved memories with Jev; the repository reports R@1 improving from 0.41 to 0.62…</i></summary>
+  <blockquote>
+    Agent memory: reranks retrieved memories with Jev; the repository reports R@1 improving from 0.41 to 0.62 on a private 300-query developer store.
+    <br><br>
+    <a href="https://github.com/kitfunso/hippo-memory">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>MemSearch Jev reranking</b> - <i>Coding-agent memory — reranks retrieved Markdown chunks with Jev Noul judgments and publishes bilingual evaluation results.</i></summary>
+  <blockquote>
+    Coding-agent memory: reranks retrieved Markdown chunks with Jev Noul judgments and publishes bilingual evaluation results.
+    <br><br>
+    <a href="https://github.com/zilliztech/memsearch/blob/main/evaluation/reranking-evaluation.md">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Oko</b> <img src="https://badgen.net/github/stars/bartlomein/oko" height="14" alt="GitHub stars"/> - <i>Developer tooling — shortlists function-level code chunks with ripgrep and BM25, then asks Jev which candidates are…</i></summary>
+  <blockquote>
+    Developer tooling: shortlists function-level code chunks with ripgrep and BM25, then asks Jev which candidates are relevant before returning excerpts through MCP.
+    <br><br>
+    <a href="https://github.com/bartlomein/oko">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>grokbot-jev-jobs</b> <img src="https://badgen.net/github/stars/mcgalleg/grokbot-jev-jobs" height="14" alt="GitHub stars"/> - <i>Job search — scores public job postings against one resume in a daily Vercel cron so only…</i></summary>
+  <blockquote>
+    Job search: scores public job postings against one resume in a daily Vercel cron so only plausible matches surface.
+    <br><br>
+    <a href="https://github.com/mcgalleg/grokbot-jev-jobs">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
 
 <details>
   <summary><b>citation-verifier</b> <img src="https://badgen.net/github/stars/MarissaFamularo/citation-verifier" height="14" alt="GitHub stars"/> - <i>Academic publishing — scores whether a cited paper supports the sentence that cites it, with Claude locating…</i></summary>
@@ -680,15 +660,6 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
   </blockquote>
 </details>
 
-<details>
-  <summary><b>DWIM</b> <img src="https://badgen.net/github/stars/rohit9mehta/dwim" height="14" alt="GitHub stars"/> - <i>Desktop productivity — scores the frontmost macOS app’s menu items against a plain-language command and executes the…</i></summary>
-  <blockquote>
-    Desktop productivity: scores the frontmost macOS app’s menu items against a plain-language command and executes the top safe match when it clears a threshold, otherwise showing a ranked list.
-    <br><br>
-    <a href="https://github.com/rohit9mehta/dwim">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
 </blockquote>
 </details>
 
@@ -738,15 +709,6 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
     Writing quality: asks Jev for eight Score dimensions on a public note.com article and combines them in TypeScript into a 0–100 slop score.
     <br><br>
     <a href="https://github.com/TKY-27/JevSlop">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>SemanticSpace</b> - <i>Semantic mapping — places phrases in two dimensions by using their Jev relationship scores to two user-selected…</i></summary>
-  <blockquote>
-    Semantic mapping: places phrases in two dimensions by using their Jev relationship scores to two user-selected concepts as coordinates.
-    <br><br>
-    <a href="https://semanticspace.dev/">🔗 <b>View Source</b></a>
   </blockquote>
 </details>
 
@@ -802,6 +764,24 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
 <blockquote>
 
 <details>
+  <summary><b>jev-mobile</b> <img src="https://badgen.net/github/stars/Friedjof/jev-mobile" height="14" alt="GitHub stars"/> - <i>Mobile control — uses Jev inside a structured Android control loop alongside Mobile MCP to choose each…</i></summary>
+  <blockquote>
+    Mobile control: uses Jev inside a structured Android control loop alongside Mobile MCP to choose each bounded action.
+    <br><br>
+    <a href="https://github.com/Friedjof/jev-mobile">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>GUI JEV Harness</b> <img src="https://badgen.net/github/stars/ZihuaEvan/GUI_JEV" height="14" alt="GitHub stars"/> - <i>Computer use — recursively selects screenshot grid regions with Jev Choice questions, using local probability and margin…</i></summary>
+  <blockquote>
+    Computer use: recursively selects screenshot grid regions with Jev Choice questions, using local probability and margin gates to descend or refuse without clicking.
+    <br><br>
+    <a href="https://github.com/ZihuaEvan/GUI_JEV">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>jev-social</b> <img src="https://badgen.net/github/stars/socai-io/jev-social" height="14" alt="GitHub stars"/> - <i>Social media research — asks Jev to choose the next socai CLI operation and target on Instagram, TikTok…</i></summary>
   <blockquote>
     Social media research: asks Jev to choose the next socai CLI operation and target on Instagram, TikTok, or LinkedIn, rejecting malformed or low-confidence choices before execution.
@@ -847,15 +827,6 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
 </details>
 
 <details>
-  <summary><b>public-browser</b> <img src="https://badgen.net/github/stars/Silbercue/public-browser" height="14" alt="GitHub stars"/> - <i>Browser automation — lets Claude Code and Cursor control an existing Chrome profile through a Jev action…</i></summary>
-  <blockquote>
-    Browser automation: lets Claude Code and Cursor control an existing Chrome profile through a Jev action loop; the project reports lower token use and cost than its comparison path.
-    <br><br>
-    <a href="https://github.com/Silbercue/public-browser">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
   <summary><b>BrowserClaw</b> <img src="https://badgen.net/github/stars/GoldenLoaf24h/browserclaw" height="14" alt="GitHub stars"/> - <i>Browser automation — combines a Jev action loop with a pruned Chrome DOM representation and dispatches the…</i></summary>
   <blockquote>
     Browser automation: combines a Jev action loop with a pruned Chrome DOM representation and dispatches the selected interactions through CDP against the active profile.
@@ -874,15 +845,6 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
 </details>
 
 <details>
-  <summary><b>jev-desktop</b> <img src="https://badgen.net/github/stars/yikangy873-gif/jev-desktop" height="14" alt="GitHub stars"/> - <i>Computer use — inserts Jev into Codex Computer Use to select among bounded desktop actions at each…</i></summary>
-  <blockquote>
-    Computer use: inserts Jev into Codex Computer Use to select among bounded desktop actions at each step.
-    <br><br>
-    <a href="https://github.com/yikangy873-gif/jev-desktop">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
   <summary><b>Yappy</b> - <i>Computer use — selects one accessibility-tree operation and target per step with Jev, executing only validated high-confidence…</i></summary>
   <blockquote>
     Computer use: selects one accessibility-tree operation and target per step with Jev, executing only validated high-confidence choices and escalating uncertain or ineffective actions to a full LLM agent.
@@ -897,6 +859,15 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
 <details open>
 <summary><strong>Loop &amp; lifecycle control</strong></summary>
 <blockquote>
+
+<details>
+  <summary><b>JevLoop</b> <img src="https://badgen.net/github/stars/parkavenue9639/jevloop" height="14" alt="GitHub stars"/> - <i>Agent runtimes — selects tools and targets with Jev Choice decisions, escalating uncertain steps to an LLM…</i></summary>
+  <blockquote>
+    Agent runtimes: selects tools and targets with Jev Choice decisions, escalating uncertain steps to an LLM while a shared kernel enforces isolated execution.
+    <br><br>
+    <a href="https://github.com/parkavenue9639/jevloop">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
 
 <details>
   <summary><b>dsh-auto-mode</b> - <i>Coding agents — evaluates unresolved questions at the end of a DeepSeek Harness turn and returns control…</i></summary>
@@ -942,47 +913,11 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
 <blockquote>
 
 <details>
-  <summary><b>yoshi</b> <img src="https://badgen.net/github/stars/compozy/yoshi" height="14" alt="GitHub stars"/> - <i>Context management — uses Jev to decide which Claude Code or Codex conversation history is still needed…</i></summary>
+  <summary><b>jev-compaction</b> <img src="https://badgen.net/github/stars/Waxmell114514/jev-compaction" height="14" alt="GitHub stars"/> - <i>Context management — scores transcript segments with Jev, keeping selected lines verbatim and moving low-scoring material behind…</i></summary>
   <blockquote>
-    Context management: uses Jev to decide which Claude Code or Codex conversation history is still needed before pruning.
+    Context management: scores transcript segments with Jev, keeping selected lines verbatim and moving low-scoring material behind expandable pointers instead of deleting it.
     <br><br>
-    <a href="https://github.com/compozy/yoshi">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>pi-fast-jev-compaction</b> <img src="https://badgen.net/github/stars/joelhooks/pi-fast-jev-compaction" height="14" alt="GitHub stars"/> - <i>Context management — keeps conversation text verbatim while Jev removes stale tool history, falling back to Pi…</i></summary>
-  <blockquote>
-    Context management: keeps conversation text verbatim while Jev removes stale tool history, falling back to Pi summarization only when pruning cannot free enough space.
-    <br><br>
-    <a href="https://github.com/joelhooks/pi-fast-jev-compaction">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>fast-jev-compaction</b> <img src="https://badgen.net/github/stars/tamaratran/fast-jev-compaction" height="14" alt="GitHub stars"/> - <i>Context management — scores Claude Code tool calls and results for continued relevance with Jev and prunes…</i></summary>
-  <blockquote>
-    Context management: scores Claude Code tool calls and results for continued relevance with Jev and prunes low-value history instead of generating a compaction summary.
-    <br><br>
-    <a href="https://github.com/tamaratran/fast-jev-compaction">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>fast-dev-compaction</b> <img src="https://badgen.net/github/stars/leonaaardob/fast-dev-compaction" height="14" alt="GitHub stars"/> - <i>Context management — ports Jev-guided pruning to Codex, preserving selected context verbatim across compaction rather than replacing…</i></summary>
-  <blockquote>
-    Context management: ports Jev-guided pruning to Codex, preserving selected context verbatim across compaction rather than replacing it with a generated summary.
-    <br><br>
-    <a href="https://github.com/leonaaardob/fast-dev-compaction">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>jev-pruner</b> <img src="https://badgen.net/github/stars/tamaratran/jev-pruner" height="14" alt="GitHub stars"/> - <i>Context management — uses Jev to trim long Bash output before it enters Claude Code’s context window.</i></summary>
-  <blockquote>
-    Context management: uses Jev to trim long Bash output before it enters Claude Code’s context window.
-    <br><br>
-    <a href="https://github.com/tamaratran/jev-pruner">🔗 <b>View Repository</b></a>
+    <a href="https://github.com/Waxmell114514/jev-compaction">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -1002,15 +937,6 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
   </blockquote>
 </details>
 
-<details>
-  <summary><b>jev-canvas</b> <img src="https://badgen.net/github/stars/gaborishka/jev-canvas" height="14" alt="GitHub stars"/> - <i>Multimodal UI — combines partial voice transcripts and webcam pointing with eight Jev decisions covering command intent…</i></summary>
-  <blockquote>
-    Multimodal UI: combines partial voice transcripts and webcam pointing with eight Jev decisions covering command intent, completeness, action, shape, colour, target, placement, and size before code updates a tldraw canvas.
-    <br><br>
-    <a href="https://github.com/gaborishka/jev-canvas">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
 </blockquote>
 </details>
 
@@ -1021,6 +947,15 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
 <summary><b>Data Labeling &amp; Curation</b></summary>
 <blockquote>
 <p>Use this category when Jev annotates, filters, links, deduplicates, or triages records at scale.</p>
+
+<details>
+  <summary><b>jevgrep (allebee)</b> <img src="https://badgen.net/github/stars/allebee/jevgrep" height="14" alt="GitHub stars"/> - <i>Log triage — filters text streams, including live `tail -f` output, by asking Jev one Noul per…</i></summary>
+  <blockquote>
+    Log triage: filters text streams, including live `tail -f` output, by asking Jev one Noul per line and printing only lines above a caller-set probability threshold.
+    <br><br>
+    <a href="https://github.com/allebee/jevgrep">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
 
 <details>
   <summary><b>jev-align (Sutro)</b> <img src="https://badgen.net/github/stars/sutro-sh/jev-align" height="14" alt="GitHub stars"/> - <i>Dataset engineering — evaluates CSV, Parquet, and JSONL rows with typed Jev questions, sends ambiguous and audit…</i></summary>
@@ -1078,6 +1013,118 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
 <blockquote>
 
 <details>
+<summary><b>Adaptive &amp; Realtime UI</b></summary>
+<blockquote>
+<p>Use this category when Jev directly changes what a user sees or can do in a live interface, and the interface itself is the clearest way to browse the project.</p>
+
+<details open>
+<summary><strong>Browser &amp; feed adaptation</strong></summary>
+<blockquote>
+
+<details>
+  <summary><b>Tab Sorter</b> <img src="https://badgen.net/github/stars/AstonyCat/jev-tab-grouper" height="14" alt="GitHub stars"/> - <i>Browser tooling — groups Chrome tabs by user-defined criteria with one Jev Choice per tab, preserving manual…</i></summary>
+  <blockquote>
+    Browser tooling: groups Chrome tabs by user-defined criteria with one Jev Choice per tab, preserving manual groups and sending unmatched tabs to a fixed fallback bucket.
+    <br><br>
+    <a href="https://github.com/AstonyCat/jev-tab-grouper">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Feed Lens</b> <img src="https://badgen.net/github/stars/SkywalkerDarren/feed-lens" height="14" alt="GitHub stars"/> - <i>Social media — annotates Weibo, Threads, and X posts in a Chrome extension using Jev judgments against…</i></summary>
+  <blockquote>
+    Social media: annotates Weibo, Threads, and X posts in a Chrome extension using Jev judgments against user-defined topic and expression labels.
+    <br><br>
+    <a href="https://github.com/SkywalkerDarren/feed-lens">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>unclutter</b> <img src="https://badgen.net/github/stars/kitze/unclutter" height="14" alt="GitHub stars"/> - <i>Browser tooling — classifies page elements as clutter with Jev and removes matches under reusable template rules.</i></summary>
+  <blockquote>
+    Browser tooling: classifies page elements as clutter with Jev and removes matches under reusable template rules.
+    <br><br>
+    <a href="https://github.com/kitze/unclutter">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>typesafe-adblock</b> <img src="https://badgen.net/github/stars/realZachi/typesafe-adblock" height="14" alt="GitHub stars"/> - <i>Browser tooling — evaluates DOM elements with Jev to decide which ones should be treated as ads…</i></summary>
+  <blockquote>
+    Browser tooling: evaluates DOM elements with Jev to decide which ones should be treated as ads and removed.
+    <br><br>
+    <a href="https://github.com/realZachi/typesafe-adblock">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>sift</b> <img src="https://badgen.net/github/stars/bohutang/sift" height="14" alt="GitHub stars"/> - <i>Social feeds — classifies X posts into substance, humour, chit-chat, promotion, junk, or AI-written content with Jev.</i></summary>
+  <blockquote>
+    Social feeds: classifies X posts into substance, humour, chit-chat, promotion, junk, or AI-written content with Jev.
+    <br><br>
+    <a href="https://github.com/bohutang/sift">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>PlotVeil</b> <img src="https://badgen.net/github/stars/Dearest/plotveil" height="14" alt="GitHub stars"/> - <i>Spoiler protection — evaluates YouTube comments for concrete plot revelations with Jev, keeps uncertain comments covered, and…</i></summary>
+  <blockquote>
+    Spoiler protection: evaluates YouTube comments for concrete plot revelations with Jev, keeps uncertain comments covered, and applies stricter thresholds to protected titles.
+    <br><br>
+    <a href="https://github.com/Dearest/plotveil">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+</blockquote>
+</details>
+
+<details open>
+<summary><strong>Generated &amp; interactive interfaces</strong></summary>
+<blockquote>
+
+<details>
+  <summary><b>json-render</b> <img src="https://badgen.net/github/stars/vercel-labs/json-render" height="14" alt="GitHub stars"/> - <i>Generative UI — uses Jev in the compose path to select which components and actions should appear…</i></summary>
+  <blockquote>
+    Generative UI: uses Jev in the compose path to select which components and actions should appear in a generated interface.
+    <br><br>
+    <a href="https://github.com/vercel-labs/json-render">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>jev-canvas</b> <img src="https://badgen.net/github/stars/gaborishka/jev-canvas" height="14" alt="GitHub stars"/> - <i>Multimodal UI — combines partial voice transcripts and webcam pointing with eight Jev decisions before code updates…</i></summary>
+  <blockquote>
+    Multimodal UI: combines partial voice transcripts and webcam pointing with eight Jev decisions before code updates a tldraw canvas.
+    <br><br>
+    <a href="https://github.com/gaborishka/jev-canvas">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>DWIM</b> <img src="https://badgen.net/github/stars/rohit9mehta/dwim" height="14" alt="GitHub stars"/> - <i>Desktop productivity — scores the frontmost macOS app’s menu items against a plain-language command and executes the…</i></summary>
+  <blockquote>
+    Desktop productivity: scores the frontmost macOS app’s menu items against a plain-language command and executes the top safe match when it clears a threshold.
+    <br><br>
+    <a href="https://github.com/rohit9mehta/dwim">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>SemanticSpace</b> - <i>Semantic mapping — places phrases in two dimensions by using their Jev relationship scores to two user-selected…</i></summary>
+  <blockquote>
+    Semantic mapping: places phrases in two dimensions by using their Jev relationship scores to two user-selected concepts as coordinates.
+    <br><br>
+    <a href="https://semanticspace.dev/">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+</blockquote>
+</details>
+
+</blockquote>
+</details>
+
+<details>
 <summary><b>Games, Robotics &amp; Simulation</b></summary>
 <blockquote>
 <p>Use this category for Jev decisions inside games, embodied-control experiments, robotics simulations, and other interactive environments where the domain is the clearest browsing signal.</p>
@@ -1085,6 +1132,33 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
 <details open>
 <summary><strong>Games &amp; puzzles</strong></summary>
 <blockquote>
+
+<details>
+  <summary><b>Jev Chess</b> - <i>Gaming — asks Jev to choose only among legal chess moves, visualizes returned probabilities on the…</i></summary>
+  <blockquote>
+    Gaming: asks Jev to choose only among legal chess moves, visualizes returned probabilities on the shared board, and scores confidence against a one-ply material check.
+    <br><br>
+    <a href="https://jevchess.com">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Life Chess × Jev</b> <img src="https://badgen.net/github/stars/ARCJ137442/jev-life" height="14" alt="GitHub stars"/> - <i>Experimental game design — asks one Jev Boolean per legal Conway-style move and flags low-confidence turns under a…</i></summary>
+  <blockquote>
+    Experimental game design: asks one Jev Boolean per legal Conway-style move and flags low-confidence turns under a user-set threshold.
+    <br><br>
+    <a href="https://github.com/ARCJ137442/jev-life">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>kNES</b> <img src="https://badgen.net/github/stars/ArturSkowronski/kNES" height="14" alt="GitHub stars"/> - <i>Gaming — drives Super Mario Bros. and Final Fantasy through a local Jev-compatible interface that chooses…</i></summary>
+  <blockquote>
+    Gaming: drives Super Mario Bros. and Final Fantasy through a local Jev-compatible interface that chooses only from the goals valid on each turn.
+    <br><br>
+    <a href="https://github.com/ArturSkowronski/kNES">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
 
 <details>
   <summary><b>typesafe-mario</b> <img src="https://badgen.net/github/stars/fhshaik/typesafe-mario" height="14" alt="GitHub stars"/> - <i>Gaming — reads structured Super Mario Bros. emulator state and uses Jev to choose each action…</i></summary>
@@ -1164,6 +1238,15 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
 <details open>
 <summary><strong>Robotics &amp; autonomy</strong></summary>
 <blockquote>
+
+<details>
+  <summary><b>OmniJev</b> <img src="https://badgen.net/github/stars/shapsider/OmniJev" height="14" alt="GitHub stars"/> - <i>Robotics — uses a self-hosted multimodal Jev-style model to choose the next preset robot skill from…</i></summary>
+  <blockquote>
+    Robotics: uses a self-hosted multimodal Jev-style model to choose the next preset robot skill from dual-camera images and text inside MuJoCo tasks.
+    <br><br>
+    <a href="https://github.com/shapsider/OmniJev">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
 
 <details>
   <summary><b>jev-drone</b> <img src="https://badgen.net/github/stars/RomanSlack/jev-drone" height="14" alt="GitHub stars"/> - <i>Robotics simulation — places a Jev decision model in the camera-only MuJoCo drone control loop at 2.5…</i></summary>
@@ -1282,6 +1365,24 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
 <p>Use this category when Jev filters or moderates user-facing content for abuse, profanity, spoilers, or other policy-defined conditions.</p>
 
 <details>
+  <summary><b>jev_antispam_bot</b> <img src="https://badgen.net/github/stars/backmeupplz/jev_antispam_bot" height="14" alt="GitHub stars"/> - <i>Telegram moderation — checks each message with Jev and routes likely spam into the bot’s moderation path.</i></summary>
+  <blockquote>
+    Telegram moderation: checks each message with Jev and routes likely spam into the bot’s moderation path.
+    <br><br>
+    <a href="https://github.com/backmeupplz/jev_antispam_bot">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>jev-slop-guard</b> <img src="https://badgen.net/github/stars/davertor/jev-slop-guard" height="14" alt="GitHub stars"/> - <i>Social feed filtering — classifies X and LinkedIn posts as `slop` or `not_slop`, blurring posts above a user-set…</i></summary>
+  <blockquote>
+    Social feed filtering: classifies X and LinkedIn posts as `slop` or `not_slop`, blurring posts above a user-set threshold while preserving a manual reveal override.
+    <br><br>
+    <a href="https://github.com/davertor/jev-slop-guard">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Jev Moderation Bot</b> <img src="https://badgen.net/github/stars/brainstormity/Jev-Moderation-Bot" height="14" alt="GitHub stars"/> - <i>Community moderation — scores Discord messages for phishing, spam, and social-engineering signals with Jev and feeds the…</i></summary>
   <blockquote>
     Community moderation: scores Discord messages for phishing, spam, and social-engineering signals with Jev and feeds the result into a four-stage escalation policy, while pardoned messages become verified-safe precedent.
@@ -1305,15 +1406,6 @@ Applications where Jev makes, scores, gates, or controls a concrete decision.
     Trust and safety: checks text and usernames for literal profanity and disguised variants with two Jev probability questions, then applies the configured threshold in a Cloudflare Worker.
     <br><br>
     <a href="https://github.com/4rays/profanity-checker">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>PlotVeil</b> <img src="https://badgen.net/github/stars/Dearest/plotveil" height="14" alt="GitHub stars"/> - <i>Spoiler protection — evaluates YouTube comments for concrete plot revelations with Jev, keeps uncertain comments covered, and…</i></summary>
-  <blockquote>
-    Spoiler protection: evaluates YouTube comments for concrete plot revelations with Jev, keeps uncertain comments covered, and applies stricter thresholds to protected titles.
-    <br><br>
-    <a href="https://github.com/Dearest/plotveil">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -1346,6 +1438,33 @@ Clients, gateways, runtimes, framework adapters, and developer tools for integra
 <details open>
 <summary><strong>SDKs &amp; language clients</strong></summary>
 <blockquote>
+
+<details>
+  <summary><b>kojev</b> <img src="https://badgen.net/github/stars/ItisNoMatter/kojev" height="14" alt="GitHub stars"/> - <i>Kotlin ecosystem — provides a Kotlin Multiplatform client for Choice and Score questions that maps answers into…</i></summary>
+  <blockquote>
+    Kotlin ecosystem: provides a Kotlin Multiplatform client for Choice and Score questions that maps answers into caller-defined enums without built-in thresholds.
+    <br><br>
+    <a href="https://github.com/ItisNoMatter/kojev">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>ask-jev</b> <img src="https://badgen.net/github/stars/logicrw/ask-jev" height="14" alt="GitHub stars"/> - <i>Python ecosystem — zero-dependency CLI for Choice, Noul, Score, batch questions, and passage extraction in agent and…</i></summary>
+  <blockquote>
+    Python ecosystem: zero-dependency CLI for Choice, Noul, Score, batch questions, and passage extraction in agent and shell pipelines.
+    <br><br>
+    <a href="https://github.com/logicrw/ask-jev">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>CloJev</b> <img src="https://badgen.net/github/stars/antlobach/clojev" height="14" alt="GitHub stars"/> - <i>Clojure ecosystem — provides a portable Clojure client for Jev/System One calls without a Java interop layer.</i></summary>
+  <blockquote>
+    Clojure ecosystem: provides a portable Clojure client for Jev/System One calls without a Java interop layer.
+    <br><br>
+    <a href="https://github.com/antlobach/clojev">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
 
 <details>
   <summary><b>zio-typesafe-ai</b> <img src="https://badgen.net/github/stars/jamesward/zio-typesafe-ai" height="14" alt="GitHub stars"/> - <i>Scala — provides a ZIO client and typed DSL for Jev decisions.</i></summary>
@@ -1486,6 +1605,31 @@ Clients, gateways, runtimes, framework adapters, and developer tools for integra
 </details>
 
 <details open>
+<summary><strong>Local runtimes &amp; compatible servers</strong></summary>
+<blockquote>
+
+<details>
+  <summary><b>FastJev</b> <img src="https://badgen.net/github/stars/chengyongru/fastjev" height="14" alt="GitHub stars"/> - <i>Local runtime — serves a System One-compatible API for Choice, Boolean, and Score decisions across open-model backends…</i></summary>
+  <blockquote>
+    Local runtime: serves a System One-compatible API for Choice, Boolean, and Score decisions across open-model backends including Torch, vLLM, MLX, llama.cpp, and WebGPU.
+    <br><br>
+    <a href="https://github.com/chengyongru/fastjev">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>jeff</b> <img src="https://badgen.net/github/stars/logan-markewich/jeff" height="14" alt="GitHub stars"/> - <i>Self-hosted runtime — exposes a Jev-compatible Choice, Score, and Noul API over GliFormer without a hosted Jev…</i></summary>
+  <blockquote>
+    Self-hosted runtime: exposes a Jev-compatible Choice, Score, and Noul API over GliFormer without a hosted Jev dependency.
+    <br><br>
+    <a href="https://github.com/logan-markewich/jeff">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+</blockquote>
+</details>
+
+<details open>
 <summary><strong>Gateways, MCP &amp; protocol bridges</strong></summary>
 <blockquote>
 
@@ -1513,15 +1657,6 @@ Clients, gateways, runtimes, framework adapters, and developer tools for integra
     Cloud infrastructure: proxies Jev decisions through a Neon Function in front of the Neon AI Gateway.
     <br><br>
     <a href="https://github.com/andrelandgraf/safer-with-jev">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>Jevbridge</b> <img src="https://badgen.net/github/stars/tacticocc/Jevbridge" height="14" alt="GitHub stars"/> - <i>Agent protocols — bridges Jev into ACP and MCP clients including Codex, Claude, and Grok.</i></summary>
-  <blockquote>
-    Agent protocols: bridges Jev into ACP and MCP clients including Codex, Claude, and Grok.
-    <br><br>
-    <a href="https://github.com/tacticocc/Jevbridge">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -1570,21 +1705,57 @@ Clients, gateways, runtimes, framework adapters, and developer tools for integra
   </blockquote>
 </details>
 
-<details>
-  <summary><b>jev-mcp (burnigtm)</b> <img src="https://badgen.net/github/stars/burnigtm/jev-mcp" height="14" alt="GitHub stars"/> - <i>MCP — adds Jev tools to Cursor, Codex, and other MCP clients, with a repository-level test…</i></summary>
-  <blockquote>
-    MCP: adds Jev tools to Cursor, Codex, and other MCP clients, with a repository-level test suite covering the server.
-    <br><br>
-    <a href="https://github.com/burnigtm/jev-mcp">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
 </blockquote>
 </details>
 
 <details open>
 <summary><strong>Framework &amp; agent integrations</strong></summary>
 <blockquote>
+
+<details>
+  <summary><b>jev-trust</b> - <i>Python ecosystem — wraps Jev calls with decision logging, outcome-based calibration metrics, effective-confidence annotations, overconfidence alerts, and…</i></summary>
+  <blockquote>
+    Python ecosystem: wraps Jev calls with decision logging, outcome-based calibration metrics, effective-confidence annotations, overconfidence alerts, and signed evidence.
+    <br><br>
+    <a href="https://pypi.org/project/jev-trust/">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>neurolink</b> <img src="https://badgen.net/github/stars/juspay/neurolink" height="14" alt="GitHub stars"/> - <i>Provider abstraction — exposes Jev-style `decide` as a first-class inference type alongside generate and stream in a…</i></summary>
+  <blockquote>
+    Provider abstraction: exposes Jev-style `decide` as a first-class inference type alongside generate and stream in a TypeScript interface over multiple providers.
+    <br><br>
+    <a href="https://github.com/juspay/neurolink">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>jev-spring-boot-starter</b> <img src="https://badgen.net/github/stars/danvega/jev-spring-boot-starter" height="14" alt="GitHub stars"/> - <i>Java ecosystem — integrates Jev with Spring Boot 4 through Spring MVC and RestClient.</i></summary>
+  <blockquote>
+    Java ecosystem: integrates Jev with Spring Boot 4 through Spring MVC and RestClient.
+    <br><br>
+    <a href="https://github.com/danvega/jev-spring-boot-starter">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>jevify</b> <img src="https://badgen.net/github/stars/altryne/jevify" height="14" alt="GitHub stars"/> - <i>Agent skill — scans a codebase for candidate decision points, designs typed Jev questions, and packages that…</i></summary>
+  <blockquote>
+    Agent skill: scans a codebase for candidate decision points, designs typed Jev questions, and packages that workflow as an installable skill.
+    <br><br>
+    <a href="https://github.com/altryne/jevify">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>discern</b> <img src="https://badgen.net/github/stars/doeixd/discern" height="14" alt="GitHub stars"/> - <i>TypeScript ecosystem — turns Jev Choice, Noul, and Score answers into typed Effect branches with caller-defined thresholds…</i></summary>
+  <blockquote>
+    TypeScript ecosystem: turns Jev Choice, Noul, and Score answers into typed Effect branches with caller-defined thresholds and an explicit `Uncertain` case.
+    <br><br>
+    <a href="https://github.com/doeixd/discern">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
 
 <details>
   <summary><b>eve</b> <img src="https://badgen.net/github/stars/vercel/eve" height="14" alt="GitHub stars"/> - <i>Agent frameworks — uses `typesafe-ai/jev` as the default model in eve’s experimental evaluation path.</i></summary>
@@ -1632,29 +1803,11 @@ Clients, gateways, runtimes, framework adapters, and developer tools for integra
 </details>
 
 <details>
-  <summary><b>Cline plugins</b> <img src="https://badgen.net/github/stars/cline/plugins" height="14" alt="GitHub stars"/> - <i>Coding agents — includes a Jev-driven browser plugin in Cline’s official plugin collection.</i></summary>
-  <blockquote>
-    Coding agents: includes a Jev-driven browser plugin in Cline’s official plugin collection.
-    <br><br>
-    <a href="https://github.com/cline/plugins">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
   <summary><b>hono-jev-router</b> <img src="https://badgen.net/github/stars/yusukebe/hono-jev-router" height="14" alt="GitHub stars"/> - <i>Web frameworks — adds Hono middleware that uses Jev to route HTTP requests by meaning rather than…</i></summary>
   <blockquote>
     Web frameworks: adds Hono middleware that uses Jev to route HTTP requests by meaning rather than only by method and path.
     <br><br>
     <a href="https://github.com/yusukebe/hono-jev-router">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>jev-use</b> <img src="https://badgen.net/github/stars/shitianfang/jev-use" height="14" alt="GitHub stars"/> - <i>Agent tooling — exposes typed Jev judgments through MCP, a library, and a native Pi extension, rejecting…</i></summary>
-  <blockquote>
-    Agent tooling: exposes typed Jev judgments through MCP, a library, and a native Pi extension, rejecting questions that require generation and flagging low-confidence answers as priors.
-    <br><br>
-    <a href="https://github.com/shitianfang/jev-use">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -1695,15 +1848,6 @@ Clients, gateways, runtimes, framework adapters, and developer tools for integra
 </details>
 
 <details>
-  <summary><b>pi-typesafe-jev</b> <img src="https://badgen.net/github/stars/legacybridge-tech/pi-typesafe-jev" height="14" alt="GitHub stars"/> - <i>Coding agents — exposes five Jev tools to Pi so narrow semantic judgments stay typed while thresholds…</i></summary>
-  <blockquote>
-    Coding agents: exposes five Jev tools to Pi so narrow semantic judgments stay typed while thresholds, weights, and actions remain under code or user control.
-    <br><br>
-    <a href="https://github.com/legacybridge-tech/pi-typesafe-jev">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
   <summary><b>jev-judgment</b> <img src="https://badgen.net/github/stars/HyunjunJeon/jev-judgment" height="14" alt="GitHub stars"/> - <i>Coding agents — packages an agent skill that sends closed coding judgments to Jev instead of a…</i></summary>
   <blockquote>
     Coding agents: packages an agent skill that sends closed coding judgments to Jev instead of a free-form text model.
@@ -1718,15 +1862,6 @@ Clients, gateways, runtimes, framework adapters, and developer tools for integra
     Agent design: maps Choice, Score, and probability questions onto decision-theory, reranking, and routing patterns, with composition rules and validation gates.
     <br><br>
     <a href="https://github.com/24601/Augustus">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>pi-quiet-ask</b> <img src="https://badgen.net/github/stars/HyunjunJeon/pi-quiet-ask" height="14" alt="GitHub stars"/> - <i>Coding agents — adds Jev as Pi’s low-overhead decision layer for bounded judgments that do not require…</i></summary>
-  <blockquote>
-    Coding agents: adds Jev as Pi’s low-overhead decision layer for bounded judgments that do not require generated text.
-    <br><br>
-    <a href="https://github.com/HyunjunJeon/pi-quiet-ask">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -1758,15 +1893,6 @@ Clients, gateways, runtimes, framework adapters, and developer tools for integra
 </details>
 
 <details>
-  <summary><b>jev-agent-skill</b> <img src="https://badgen.net/github/stars/yuyang2230/jev-agent-skill" height="14" alt="GitHub stars"/> - <i>Coding agents — provides Claude Code and ZCode with Jev-backed classify, screen, score, and compliance-check operations through…</i></summary>
-  <blockquote>
-    Coding agents: provides Claude Code and ZCode with Jev-backed classify, screen, score, and compliance-check operations through an installable skill and standalone caller.
-    <br><br>
-    <a href="https://github.com/yuyang2230/jev-agent-skill">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
   <summary><b>HA-Jev</b> <img src="https://badgen.net/github/stars/AboveColin/HA-Jev" height="14" alt="GitHub stars"/> - <i>Home Assistant — turns Jev Choice, Score, and probability answers into sensors, automation actions, and an Assist…</i></summary>
   <blockquote>
     Home Assistant: turns Jev Choice, Score, and probability answers into sensors, automation actions, and an Assist conversation agent, with configurable confidence and daily token budgets.
@@ -1781,6 +1907,15 @@ Clients, gateways, runtimes, framework adapters, and developer tools for integra
 <details open>
 <summary><strong>Data &amp; query integrations</strong></summary>
 <blockquote>
+
+<details>
+  <summary><b>mysql-ailike</b> <img src="https://badgen.net/github/stars/maayanlevy/mysql-ailike" height="14" alt="GitHub stars"/> - <i>Database integration — adds a MySQL natural-language filtering predicate powered by Jev.</i></summary>
+  <blockquote>
+    Database integration: adds a MySQL natural-language filtering predicate powered by Jev.
+    <br><br>
+    <a href="https://github.com/maayanlevy/mysql-ailike">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
 
 <details>
   <summary><b>LlamaIndex Jev</b> <img src="https://badgen.net/github/stars/WiktorB2004/llama-index-jev" height="14" alt="GitHub stars"/> - <i>Retrieval and RAG — adapts Jev to LlamaIndex for passage scoring and query-engine selection, with the project reporting…</i></summary>
@@ -1849,6 +1984,15 @@ Evaluators, comparative benchmarks, calibration studies, open reproductions, and
 <blockquote>
 
 <details>
+  <summary><b>pytest-jev</b> <img src="https://badgen.net/github/stars/allebee/pytest-jev" height="14" alt="GitHub stars"/> - <i>LLM app testing — uses Jev Noul, Choice, and Score checks inside pytest for plain-English assertions and publishes…</i></summary>
+  <blockquote>
+    LLM app testing: uses Jev Noul, Choice, and Score checks inside pytest for plain-English assertions and publishes a small comparison against Claude Sonnet.
+    <br><br>
+    <a href="https://github.com/allebee/pytest-jev">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Jev Web Analyzer</b> <img src="https://badgen.net/github/stars/replynodes/jev-web-analyzer" height="14" alt="GitHub stars"/> - <i>Product evaluation — converts a public SaaS landing page to Markdown, asks Jev ten bounded questions about…</i></summary>
   <blockquote>
     Product evaluation: converts a public SaaS landing page to Markdown, asks Jev ten bounded questions about first-visit comprehension, and returns inspectable findings for the first change to consider.
@@ -1881,6 +2025,69 @@ Evaluators, comparative benchmarks, calibration studies, open reproductions, and
 <details open>
 <summary><strong>Benchmarks &amp; comparative studies</strong></summary>
 <blockquote>
+
+<details>
+  <summary><b>DeepSearcher stopping-policy experiment</b> - <i>Agentic search — evaluates a Jev Noul stopping policy over accumulated evidence, comparing stop/continue behavior, evidence recall…</i></summary>
+  <blockquote>
+    Agentic search: evaluates a Jev Noul stopping policy over accumulated evidence, comparing stop/continue behavior, evidence recall, and decision cost across bounded search rounds.
+    <br><br>
+    <a href="https://github.com/zilliztech/deep-searcher/blob/master/evaluation/jev_stopping/README.md">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Jev vs GPT-4.1 on a synthetic survey</b> <img src="https://badgen.net/github/stars/jjd-lab/jev-synthetic-survey" height="14" alt="GitHub stars"/> - <i>Survey research — compares Jev and GPT-4.1 across 24,596 paired survey cells under fixed criteria, with the…</i></summary>
+  <blockquote>
+    Survey research: compares Jev and GPT-4.1 across 24,596 paired survey cells under fixed criteria, with the authors reporting larger effects from Noul-vs-Choice framing than from the model swap.
+    <br><br>
+    <a href="https://github.com/jjd-lab/jev-synthetic-survey">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Jevals.com</b> - <i>Model evaluation — benchmarks Jev and six LLMs on Noul, Choice, and Score tasks over human-labeled datasets…</i></summary>
+  <blockquote>
+    Model evaluation: benchmarks Jev and six LLMs on Noul, Choice, and Score tasks over human-labeled datasets and publishes per-decision probabilities.
+    <br><br>
+    <a href="https://jevals.com/">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Jev IDS</b> <img src="https://badgen.net/github/stars/jev-ids/jev-ids" height="14" alt="GitHub stars"/> - <i>Network security — evaluates a Jev-based intrusion classifier on NSL-KDD against an LLM and Random Forest, reporting…</i></summary>
+  <blockquote>
+    Network security: evaluates a Jev-based intrusion classifier on NSL-KDD against an LLM and Random Forest, reporting latency, cost, and false-alarm comparisons.
+    <br><br>
+    <a href="https://github.com/jev-ids/jev-ids">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>jev-test</b> <img src="https://badgen.net/github/stars/souvikr/jev-test" height="14" alt="GitHub stars"/> - <i>Model benchmarking — reproducibly compares Jev Noul, Choice, and Score decisions through OpenRouter with prompt-and-parse LLM baselines.</i></summary>
+  <blockquote>
+    Model benchmarking: reproducibly compares Jev Noul, Choice, and Score decisions through OpenRouter with prompt-and-parse LLM baselines.
+    <br><br>
+    <a href="https://github.com/souvikr/jev-test">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Jev vs Fable on 520 real social posts</b> - <i>Social media — compares Jev’s advisory caption checks with Fable labels over 520 posts and reports agreement…</i></summary>
+  <blockquote>
+    Social media: compares Jev’s advisory caption checks with Fable labels over 520 posts and reports agreement, latency, and cost without using Jev as a publishing gate.
+    <br><br>
+    <a href="https://seenpaid.com/blog/jev-review-tested-against-fable">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Laya vs Jev arena</b> <img src="https://badgen.net/github/stars/PromptEngineer48/laya-vs-jev-arena" height="14" alt="GitHub stars"/> - <i>Model comparison — runs Laya and Jev through the same Snake and fighting-game environments to compare decisions…</i></summary>
+  <blockquote>
+    Model comparison: runs Laya and Jev through the same Snake and fighting-game environments to compare decisions under identical game code.
+    <br><br>
+    <a href="https://github.com/PromptEngineer48/laya-vs-jev-arena">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
 
 <details>
   <summary><b>Jev Playground</b> <img src="https://badgen.net/github/stars/hegargarcia/jev-playground" height="14" alt="GitHub stars"/> - <i>Model comparison — evaluates Jev, Luna, Haiku, and Gemini on validated legal-move selection in explicit-state games, tracking…</i></summary>
@@ -2056,6 +2263,24 @@ Evaluators, comparative benchmarks, calibration studies, open reproductions, and
 <details open>
 <summary><strong>Open models &amp; reproductions</strong></summary>
 <blockquote>
+
+<details>
+  <summary><b>Visual-JEV</b> <img src="https://badgen.net/github/stars/jiangxiluning/Visual-Jev" height="14" alt="GitHub stars"/> - <i>Open model — adapts a Qwen3.5-4B-based Jev-style model for direct multimodal image input instead of converting visual…</i></summary>
+  <blockquote>
+    Open model: adapts a Qwen3.5-4B-based Jev-style model for direct multimodal image input instead of converting visual state to text first.
+    <br><br>
+    <a href="https://github.com/jiangxiluning/Visual-Jev">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OpenDecision</b> <img src="https://badgen.net/github/stars/deepanwadhwa/OpenDecision" height="14" alt="GitHub stars"/> - <i>Open alternative — provides a local Jev-style engine for Choice, Noul, and Score questions over structured state…</i></summary>
+  <blockquote>
+    Open alternative: provides a local Jev-style engine for Choice, Noul, and Score questions over structured state and documents.
+    <br><br>
+    <a href="https://github.com/deepanwadhwa/OpenDecision">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
 
 <details>
   <summary><b>decider</b> <img src="https://badgen.net/github/stars/Mapika/decider" height="14" alt="GitHub stars"/> - <i>Open model — fine-tunes Qwen3.5-2B into a one-pass typed decision model that emits calibrated probabilities.</i></summary>
@@ -2300,6 +2525,60 @@ Tutorials, explainers, technical analyses, case reports, directories, and public
 <blockquote>
 
 <details>
+  <summary><b>Jev by Example</b> <img src="https://badgen.net/github/stars/ReallyArtificial/jev-by-example" height="14" alt="GitHub stars"/> - <i>Agent development — runnable JavaScript lessons cover memory reconciliation, recovery proposals, handoff checks, and explicit application policies…</i></summary>
+  <blockquote>
+    Agent development: runnable JavaScript lessons cover memory reconciliation, recovery proposals, handoff checks, and explicit application policies around Jev decisions.
+    <br><br>
+    <a href="https://github.com/ReallyArtificial/jev-by-example">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Search with Jev and Milvus</b> - <i>Search engineering — nine runnable notebooks combine Milvus retrieval with Jev judgments for ranking, filtering, routing, and…</i></summary>
+  <blockquote>
+    Search engineering: nine runnable notebooks combine Milvus retrieval with Jev judgments for ranking, filtering, routing, and stopping.
+    <br><br>
+    <a href="https://github.com/milvus-io/bootcamp/tree/master/bootcamp/RAG/search_with_jev">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>jev-usecases</b> <img src="https://badgen.net/github/stars/kenhuangus/jev-usecases" height="14" alt="GitHub stars"/> - <i>Reference harnesses — collects production-shaped examples built around confidence-gated Jev decision logic.</i></summary>
+  <blockquote>
+    Reference harnesses: collects production-shaped examples built around confidence-gated Jev decision logic.
+    <br><br>
+    <a href="https://github.com/kenhuangus/jev-usecases">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>A deep dive into Jev</b> - <i>Blog — explains the System One model, typed decision interface, and how Jev differs from general…</i></summary>
+  <blockquote>
+    Blog: explains the System One model, typed decision interface, and how Jev differs from general text-generation models.
+    <br><br>
+    <a href="https://flaviocopes.com/jev/">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Jev Tutorial</b> - <i>Site — multilingual implementation guide covering Choice, Score, Noul, Python SDK calls, thresholds, deterministic fallbacks, and…</i></summary>
+  <blockquote>
+    Site: multilingual implementation guide covering Choice, Score, Noul, Python SDK calls, thresholds, deterministic fallbacks, and human escalation.
+    <br><br>
+    <a href="https://www.jev-tutorial.org/">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Jev vs GPT-6 Astra: when to use each</b> - <i>Guide — compares when to use Jev versus a frontier generative model and links several Jev…</i></summary>
+  <blockquote>
+    Guide: compares when to use Jev versus a frontier generative model and links several Jev use cases.
+    <br><br>
+    <a href="https://vercel.com/i/jev-vs-gpt-6-astra">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Jev 中文解读</b> - <i>X (Chinese) — explains Jev to Chinese readers as a calibrated typed-decision layer rather than a text-generation…</i></summary>
   <blockquote>
     X (Chinese): explains Jev to Chinese readers as a calibrated typed-decision layer rather than a text-generation model.
@@ -2413,6 +2692,69 @@ Tutorials, explainers, technical analyses, case reports, directories, and public
 <details open>
 <summary><strong>Technical analysis &amp; critique</strong></summary>
 <blockquote>
+
+<details>
+  <summary><b>JEV captcha arbitrage</b> - <i>X — analyzes CAPTCHA-solving economics using Jev’s per-decision pricing against marketplace payouts.</i></summary>
+  <blockquote>
+    X: analyzes CAPTCHA-solving economics using Jev’s per-decision pricing against marketplace payouts.
+    <br><br>
+    <a href="https://x.com/kenonews/status/2101656436136661163">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Replacing an agentic classification loop with Jev</b> - <i>Blog — replaces an agentic classification loop with one Jev call and reports a 7× speedup.</i></summary>
+  <blockquote>
+    Blog: replaces an agentic classification loop with one Jev call and reports a 7× speedup.
+    <br><br>
+    <a href="https://blog.r6i.it/typesafe-jev-vs-agentic-loop.html">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Jev and the System One Model (Latent Space)</b> - <i>Podcast — Diogo Almeida discusses RLCD, reliability, inference economics, and System One models.</i></summary>
+  <blockquote>
+    Podcast: Diogo Almeida discusses RLCD, reliability, inference economics, and System One models.
+    <br><br>
+    <a href="https://www.latent.space/p/jev">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Jev 1.13 jaggedness</b> - <i>Documentation — TypeSafe’s page on model jaggedness for the Jev 1.13 release.</i></summary>
+  <blockquote>
+    Documentation: TypeSafe’s page on model jaggedness for the Jev 1.13 release.
+    <br><br>
+    <a href="https://docs.typesafe.ai/model-jaggedness/jev-1.13">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Jev cannot emit an invalid output, but where is the reliability curve?</b> - <i>Reddit — questions whether Jev’s calibration claims are backed by published ECE or reliability curves while…</i></summary>
+  <blockquote>
+    Reddit: questions whether Jev’s calibration claims are backed by published ECE or reliability curves while accepting its typed-output guarantee.
+    <br><br>
+    <a href="https://www.reddit.com/r/ArtificialInteligence/comments/1wm873q/typesafes_jev_cannot_emit_an_invalid_output_but/">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Why I couldn&#x27;t build Jev at OpenAI</b> - <i>Video — Diogo Almeida explains the design motivation behind System One models and why the work…</i></summary>
+  <blockquote>
+    Video: Diogo Almeida explains the design motivation behind System One models and why the work became a separate company.
+    <br><br>
+    <a href="https://www.youtube.com/watch?v=cFx9Z3ZXca0">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>TypeSafe&#x27;s Jev Can&#x27;t See. I Made It Guess What I Drew Anyway</b> - <i>Blog — explores what Jev can infer from textual descriptions of drawings despite lacking direct image…</i></summary>
+  <blockquote>
+    Blog: explores what Jev can infer from textual descriptions of drawings despite lacking direct image input.
+    <br><br>
+    <a href="https://mikulskibartosz.name/typesafe-jev-guess-what-i-drew">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
 
 <details>
   <summary><b>MLP on Qwen 4B mimicking Jev</b> - <i>X — reports an experiment in which a small MLP over Qwen 4B reproduces Jev-like decision…</i></summary>
@@ -2530,6 +2872,15 @@ Tutorials, explainers, technical analyses, case reports, directories, and public
 <blockquote>
 
 <details>
+  <summary><b>Spike: Jev as a judgement layer to cut model cost</b> - <i>Issue — proposes moving agent judgment into Jev to reduce model cost inside a multi-agent orchestration…</i></summary>
+  <blockquote>
+    Issue: proposes moving agent judgment into Jev to reduce model cost inside a multi-agent orchestration platform.
+    <br><br>
+    <a href="https://github.com/open-orcha/orcha/issues/253">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Model router built with Jev</b> - <i>X — demonstrates a request router that asks Jev which model should receive each prompt.</i></summary>
   <blockquote>
     X: demonstrates a request router that asks Jev which model should receive each prompt.
@@ -2571,15 +2922,6 @@ Tutorials, explainers, technical analyses, case reports, directories, and public
     X: describes a shipped Mac application that sends setup and troubleshooting judgments to Jev when no language model is loaded.
     <br><br>
     <a href="https://x.com/malekoo/status/2100439840575684910">🔗 <b>View Source</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>Testing Jev for Pi extensions (r/PiCodingAgent)</b> - <i>Reddit — discusses Jev-based tool-use safety checks and prompt-complexity routing inside Pi extensions.</i></summary>
-  <blockquote>
-    Reddit: discusses Jev-based tool-use safety checks and prompt-complexity routing inside Pi extensions.
-    <br><br>
-    <a href="https://reddit.com/r/PiCodingAgent/comments/1whsav6/anyone_else_testing_out_typesafe_ais_new_system/">🔗 <b>View Source</b></a>
   </blockquote>
 </details>
 
@@ -2708,6 +3050,33 @@ Tutorials, explainers, technical analyses, case reports, directories, and public
 <blockquote>
 
 <details>
+  <summary><b>Jev is now available to everyone, no waitlist</b> - <i>X — TypeSafe announces Jev general availability and removal of the waitlist.</i></summary>
+  <blockquote>
+    X: TypeSafe announces Jev general availability and removal of the waitlist.
+    <br><br>
+    <a href="https://x.com/typesafeai/status/2101786156572823624">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>TypeSafe pauses Jev signups</b> - <i>X — TypeSafe reports pausing new Jev signups after general availability to protect service quality.</i></summary>
+  <blockquote>
+    X: TypeSafe reports pausing new Jev signups after general availability to protect service quality.
+    <br><br>
+    <a href="https://x.com/typesafeai/status/2102281508950307159">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Jev is on Workers AI as typesafe/jev</b> - <i>Reddit — reports Jev availability on Cloudflare Workers AI as `typesafe/jev`.</i></summary>
+  <blockquote>
+    Reddit: reports Jev availability on Cloudflare Workers AI as `typesafe/jev`.
+    <br><br>
+    <a href="https://www.reddit.com/r/CloudFlare/comments/1wmjsj2/typesafes_jev_the_decisiononly_model_is_on/">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Introducing System One Models and Jev (Hacker News)</b> - <i>Hacker News — launch discussion covering whether typed decisions can replace LLM calls for classification, routing, and…</i></summary>
   <blockquote>
     Hacker News: launch discussion covering whether typed decisions can replace LLM calls for classification, routing, and verification.
@@ -2785,6 +3154,33 @@ Tutorials, explainers, technical analyses, case reports, directories, and public
 <details open>
 <summary><strong>Directories, roundups &amp; field notes</strong></summary>
 <blockquote>
+
+<details>
+  <summary><b>Awesome TypeSafe Jev</b> <img src="https://badgen.net/github/stars/AbdelStark/awesome-typesafe-jev" height="14" alt="GitHub stars"/> - <i>Curated list — source-backed collection of Jev SDKs, live demos, and implementation examples.</i></summary>
+  <blockquote>
+    Curated list: source-backed collection of Jev SDKs, live demos, and implementation examples.
+    <br><br>
+    <a href="https://github.com/AbdelStark/awesome-typesafe-jev">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>60 Jev use cases in Chinese</b> - <i>X (Chinese) — rounds up sixty Jev use cases and organizes them around classification, scoring, and selection.</i></summary>
+  <blockquote>
+    X (Chinese): rounds up sixty Jev use cases and organizes them around classification, scoring, and selection.
+    <br><br>
+    <a href="https://x.com/yaojingang/status/2101867443820113982">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>A Jev index rebuilt every four hours</b> - <i>X (Chinese) — describes a multilingual index that scrapes X every four hours and reports more than…</i></summary>
+  <blockquote>
+    X (Chinese): describes a multilingual index that scrapes X every four hours and reports more than 5,380 Jev-related posts.
+    <br><br>
+    <a href="https://x.com/LinearUncle/status/2102423502414618729">🔗 <b>View Source</b></a>
+  </blockquote>
+</details>
 
 <details>
   <summary><b>Awesome Jev by TypeSafe</b> <img src="https://badgen.net/github/stars/Anil-matcha/awesome-jev-by-typesafe" height="14" alt="GitHub stars"/> - <i>GitHub — curates Jev use cases, patterns, prompts, starter code, and a video walkthrough of eight…</i></summary>

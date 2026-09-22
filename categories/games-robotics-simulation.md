@@ -12,6 +12,10 @@ Use this category for Jev decisions inside games, embodied-control experiments, 
 
 ### Games & puzzles
 
+- [Jev Chess](https://jevchess.com) — Gaming: asks Jev to choose only among legal chess moves, visualizes returned probabilities on the shared board, and scores confidence against a one-ply material check.
+- [Life Chess × Jev](https://github.com/ARCJ137442/jev-life) — Experimental game design: asks one Jev Boolean per legal Conway-style move and flags low-confidence turns under a user-set threshold.
+- [kNES](https://github.com/ArturSkowronski/kNES) — Gaming: drives Super Mario Bros. and Final Fantasy through a local Jev-compatible interface that chooses only from the goals valid on each turn.
+
 - [typesafe-mario](https://github.com/fhshaik/typesafe-mario) — Gaming: reads structured Super Mario Bros. emulator state and uses Jev to choose each action from emulator-derived features.
 - [tsai-sc](https://github.com/phyous/tsai-sc) — Gaming: controls original StarCraft shareware through keyboard and mouse while recording Jev action probabilities for each decision.
 - [jev-plays-pokemon](https://github.com/milanboers/jev-plays-pokemon) — Gaming: turns Pokémon Red state into typed Jev questions each turn and lets deterministic code translate the answers into moves.
@@ -22,6 +26,8 @@ Use this category for Jev decisions inside games, embodied-control experiments, 
 - [2048 × Jev](https://github.com/ARCJ137442/jev-2048) — Gaming: asks Jev to choose among four legal 2048 directions each turn and pauses for human review when confidence falls below the user’s threshold.
 
 ### Robotics & autonomy
+
+- [OmniJev](https://github.com/shapsider/OmniJev) — Robotics: uses a self-hosted multimodal Jev-style model to choose the next preset robot skill from dual-camera images and text inside MuJoCo tasks.
 
 - [jev-drone](https://github.com/RomanSlack/jev-drone) — Robotics simulation: places a Jev decision model in the camera-only MuJoCo drone control loop at 2.5 Hz.
 - [typesafe-jev-drone-demo](https://github.com/kxzk/typesafe-jev-drone-demo) — Simulation: uses a Python Jev backend to choose navigation decisions for a drone rendered in Three.js.
